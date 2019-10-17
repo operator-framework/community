@@ -13,9 +13,11 @@ Discuss on:
 * [Operator Framework on Google Groups](https://groups.google.com/forum/#!forum/operator-framework)
 * [Operator Framework Commons SIG](https://commons.openshift.org/sig/OpenshiftOperators.html)
 
-Operator Framework Working Group Meetings
+Operator Framework Special Interest Group Meetings
 -----------------------------------------
 
-tbd
+* Next Scheduled Meeting: Oct 22nd 16:00 UTC/9:00 am Pacfic/Noon Eastern [dial-in details](https://github.com/operator-framework/community/projects/2#card-27939134)
+* [Proposed Agenda](https://github.com/operator-framework/community/projects)
+* [Propose an agenda topic propose](https://github.com/operator-framework/community/projects/2#column-6841651)
   
   
