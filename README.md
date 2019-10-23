@@ -16,7 +16,7 @@ Discuss on:
 Operator Framework Special Interest Group Meetings
 -----------------------------------------
 
-* Next Scheduled Meeting: Oct 22nd 16:00 UTC/9:00 am Pacfic/Noon Eastern [dial-in details](https://github.com/operator-framework/community/projects/2#card-27939134)
+* Next Scheduled Meeting: November 12 2019  16:00 UTC/9:00 am Pacfic/Noon Eastern [dial-in details](https://github.com/operator-framework/community/projects/2#card-27939134)
 * [Proposed Agenda](https://github.com/operator-framework/community/projects)
 * [Propose an agenda topic propose](https://github.com/operator-framework/community/projects/2#column-6841651)
   
