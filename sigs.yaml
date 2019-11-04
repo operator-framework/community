@@ -1,0 +1,32 @@
+sigs: []
+workinggroups:
+- dir: wg-ci
+  name: CI
+  mission_statement: >
+    Improve continuous integration (CI) for operators created, installed, and managed
+    by components of Operator Framework.
+
+  label: ci
+  leadership:
+    chairs:
+    - github: gallettilance
+      name: Lance Galletti
+      company: Red Hat
+    - github: njhale
+      name: Nick Hale
+      company: Red Hat
+    - github: shawn-hurley
+      name: Shawn Hurley
+      company: Red Hat
+  meetings:
+  - description: Regular WG Meeting
+    day: Wednesday
+    time: "14:00"
+    tz: ET (Eastern Time)
+    frequency: biweekly
+    url: https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#heading=h.g1tg5lyjvb51
+  contact:
+    slack: kubernetes-operators
+    mailing_list: https://groups.google.com/forum/#!forum/operator-framework-wg-ci
+usergroups: []
+committees: []
