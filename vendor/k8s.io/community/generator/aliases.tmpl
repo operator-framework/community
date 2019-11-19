@@ -1,0 +1,28 @@
+aliases:
+  {{- range .Sigs}}
+  {{.Dir}}-leads:
+    {{- range .Leadership.Chairs}}
+    - {{.GitHub}}
+    {{- end}}
+    {{- range .Leadership.TechnicalLeads}}
+    - {{.GitHub}}
+    {{- end}}
+  {{- end}}
+  {{- range .WorkingGroups}}
+  {{.Dir}}-leads:
+    {{- range .Leadership.Chairs}}
+    - {{.GitHub}}
+    {{- end}}
+  {{- end}}
+  {{- range .UserGroups}}
+  {{.Dir}}-leads:
+    {{- range .Leadership.Chairs}}
+    - {{.GitHub}}
+    {{- end}}
+  {{- end}}
+  {{- range .Committees}}
+  {{.Dir}}:
+    {{- range .Leadership.Chairs}}
+    - {{.GitHub}}
+    {{- end}}
+  {{- end}}
