@@ -21,6 +21,6 @@ Discuss on:
 
 ### Operator SDK
 
-* Wednesdays at 09:00 PT (Pacific Time) (monthly - first Wednesday of the month). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=PT%20%28Pacific%20Time%29).
+* Wednesdays at 09:00 PT (Pacific Time) (monthly - first Wednesday of the month). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
   * Meeting recordings (coming soon!)
