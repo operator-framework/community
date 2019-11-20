@@ -24,3 +24,9 @@ Discuss on:
 * Wednesdays at 09:00 PT (Pacific Time) (monthly - first Wednesday of the month). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
   * Meeting recordings (coming soon!)
+
+### Operator CI Working Group
+
+* Wednesdays at 14:00 ET (Eastern Time) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Eastern%20Time%29).
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#)
+  * Meeting recordings (coming soon!)
