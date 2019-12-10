@@ -28,5 +28,27 @@ workinggroups:
   contact:
     slack: kubernetes-operators
     mailing_list: https://groups.google.com/forum/#!forum/operator-framework-wg-ci
+- dir: wg-service-binding
+  name: Service Binding
+  mission_statement: >
+    The Service Binding Workgroup focuses on the exchange of credential data required
+    for connectivity between applications and operator provisioned services.
+
+  label: service-binding
+  leadership:
+    chairs:
+    - github: kyleschlosser
+      name: Kyle Schlosser
+      company: IBM
+  meetings:
+  - description: Regular WG Meeting
+    day: Wednesday
+    time: "09:00"
+    tz: ET (Eastern Time)
+    frequency: monthly
+    url: https://docs.google.com/document/d/1Slj3L3wMcmtskVHs_SMjFBMudsrjdr7dELaHXbd3YrU/edit?usp=sharing
+  contact:
+    slack: kubernetes-operators
+    mailing_list: https://groups.google.com/forum/#!forum/operator-framework
 usergroups: []
 committees: []
