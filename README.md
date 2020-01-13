@@ -24,3 +24,10 @@ Discuss on:
 * Wednesdays at 09:00 PT (Pacific Time) (monthly - first Wednesday of the month). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
   * Meeting recordings (coming soon!)
+
+
+### Service Binding Workgroup
+
+* Wednesdays at 10:00 CT (Central Time) (monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=09:00&tz=ET%20%28Eastern%20Time%29).
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/1Slj3L3wMcmtskVHs_SMjFBMudsrjdr7dELaHXbd3YrU/edit?usp=sharing)
+  * Meeting recordings (coming soon!)
