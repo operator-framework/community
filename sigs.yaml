@@ -37,6 +37,9 @@ workinggroups:
   label: service-binding
   leadership:
     chairs:
+    - github: Avni-Sharma
+      name: Avni Sharma
+      company: Redhat
     - github: kyleschlosser
       name: Kyle Schlosser
       company: IBM

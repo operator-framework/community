@@ -15,6 +15,7 @@ The Service Binding Workgroup focuses on the exchange of credential data require
 
 ## Organizers
 
+* Avni Sharma (**[@Avni-Sharma](https://github.com/Avni-Sharma)**), Redhat
 * Kyle Schlosser (**[@kyleschlosser](https://github.com/kyleschlosser)**), IBM
 
 ## Contact
