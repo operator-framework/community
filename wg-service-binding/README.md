@@ -11,7 +11,7 @@ To understand how this file is generated, see https://git.k8s.io/community/gener
 The Service Binding Workgroup focuses on the exchange of credential data required for connectivity between applications and operator provisioned services.
 
 ## Meetings
-* Regular WG Meeting: [Wednesdays at 09:00 ET (Eastern Time)](https://docs.google.com/document/d/1Slj3L3wMcmtskVHs_SMjFBMudsrjdr7dELaHXbd3YrU/edit?usp=sharing) (monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=09:00&tz=ET%20%28Eastern%20Time%29).
+* Regular WG Meeting: [Wednesdays at 10:00 CT (Central Time)](https://docs.google.com/document/d/1Slj3L3wMcmtskVHs_SMjFBMudsrjdr7dELaHXbd3YrU/edit?usp=sharing) (monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=CT%20%28Central%20Time%29).
 
 ## Organizers
 

@@ -46,8 +46,8 @@ workinggroups:
   meetings:
   - description: Regular WG Meeting
     day: Wednesday
-    time: "09:00"
-    tz: ET (Eastern Time)
+    time: "10:00"
+    tz: CT (Central Time)
     frequency: monthly
     url: https://docs.google.com/document/d/1Slj3L3wMcmtskVHs_SMjFBMudsrjdr7dELaHXbd3YrU/edit?usp=sharing
   contact:

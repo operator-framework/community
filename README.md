@@ -28,6 +28,6 @@ Discuss on:
 
 ### Service Binding Workgroup
 
-* Wednesdays at 10:00 CT (Central Time) (monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=09:00&tz=ET%20%28Eastern%20Time%29).
+* Wednesdays at 10:00 CT (Central Time) (monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=CT%20%28Central%20Time%29).
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1Slj3L3wMcmtskVHs_SMjFBMudsrjdr7dELaHXbd3YrU/edit?usp=sharing)
   * Meeting recordings (coming soon!)
