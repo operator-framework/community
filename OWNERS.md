@@ -6,6 +6,7 @@
 * Shawn Hurley
 * Daniel Messer
 * Rob Szumski
+* Gerred Dillon
 
 
 ## Members
