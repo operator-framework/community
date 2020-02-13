@@ -7,7 +7,7 @@ v1.0
 ## Introduction
 The charter describes the logistics of the Operator Framework community project.
 
-The Operator Framework is an open-source project based on the Apache Licence that provides tooling for software engineers and Kubernetes cluster owners to develop and run Kubernetes Operators at scale.
+The Operator Framework is an open-source project based on the [Apache Licence 2.0](https://www.apache.org/licenses/LICENSE-2.0) that provides tooling for software engineers and Kubernetes cluster owners to develop and run Kubernetes Operators at scale.
 
 The Operator Framework community's purpose is to discuss, give guidance to, and enable collaboration on current development efforts for the Operator SDK, Operator Lifecycle Manager and related projects for packaging and testing in the Operator Framework umbrella. This will also include the discussion of shared community goals for the Operator Framework and beyond. Additionally, the Operator Framework community will produce supporting materials and best practices for end-users and will provide guidance and coordination for CNCF projects working within a SIG's scope.
 
