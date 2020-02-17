@@ -2,7 +2,7 @@
 
 v1.0
 
-2019-10-16 
+2020-01-17 
 
 ## Introduction
 The charter describes the logistics of the Operator Framework community project.
