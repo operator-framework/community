@@ -16,7 +16,7 @@ The Operator Framework is currently [proposed for inclusion](https://github.com/
 ## Mission
 The mission of the Operator Framework community is:
 * To collaborate on areas related to developing, packaging, deploying and managing the lifecycle Kubernetes Operators
-* To develop informational resources like guides, tutorials, and white papers to give the community an understanding of best practices, trade-offs, and value adds as it relates to developing, packaging, deploying and managing the lifecycle Kubernetes Operators
+* To develop informational resources like guides, tutorials, and white papers to give the community an understanding of best practices, trade-offs, and value adds as it relates to developing, packaging, deploying and managing the lifecycle of Kubernetes Operators
 * To identify suitable projects and gaps in the ecosystem for future collaboration and coordination with those projects.
 
 ### Areas considered in Scope
@@ -36,12 +36,13 @@ The Operator Framework community will work on developing best practices, fosteri
 
 ### Operations
 The Operator Framework community is run and managed by the following chairs:
-* Community Development Liaison (CDL Chair) - Diane Mueller
-* OLM Tech Lead - Evan Cordell
-* SDK Tech Lead - Joe Lanford
-* Engineering Group Lead - Shawn Hurley
-* Operator Framework Product Manager - Daniel Messer
-* Operator Framework Product Manager - Rob Szumski
+* Diane Mueller
+* Evan Cordell
+* Joe Lanford
+* Shawn Hurley
+* Daniel Messer
+* Rob Szumski
+* Gerred Dillon
 
 Note: The referenced names and chair positions will be edited in-place as chairs are added, removed, or replaced. See the roles of chairs section for more information.
 
@@ -109,7 +110,7 @@ The terms for founding Chairs start on the approval of this charter.
 
 When no candidate has submitted their name for consideration, the current Chairs may appoint an acting Chair until a candidate comes forward.
 
-Chairs must be active members. Any inactivity, disability, or ineligibility results in immediate removal.
+Chairs must be active members. Any inactivity, inability to filfill the role, or ineligibility results in immediate removal.
 
 Chairs may be removed by petition to the Operator Framework Community through the Call for Agreement process outlined above.
 
