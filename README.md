@@ -9,6 +9,7 @@ Designs, technical proposals, and issues are tracked in the [operator-sdk repo](
 Discuss on:
 * [Kubernetes Slack in #kubernetes-operators](https://kubernetes.slack.com) ([Get invite](https://slack.k8s.io))
 * [Operator Framework on Google Groups](https://groups.google.com/forum/#!forum/operator-framework)
+* [Operator Lifecycle Manager Development on Google Groups](https://groups.google.com/forum/#!forum/operator-framework-olm-dev)
 * [Operator Framework Commons SIG](https://commons.openshift.org/sig/OpenshiftOperators.html)
 
 ## Meetings
@@ -29,4 +30,10 @@ Discuss on:
 
 * Wednesdays at 14:00 ET (Eastern Time) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Eastern%20Time%29).
   * [Meeting notes and Agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#)
+  * Meeting recordings (coming soon!)
+
+### Operator Lifecycle Manager Working Group
+
+* Thursdays at 15:00 ET (Eastern Time) (biweekly). [Convert to your timezone](https://www.thetimezoneconverter.com/?t=3%3A00%20pm&tz=Eastern%20Time%20(ET)&)
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/1hP2T8Hj0FxuRtFLm1yrJ66XBpXXEFBEXN7eW7wFArho/edit?usp=sharing)
   * Meeting recordings (coming soon!)
