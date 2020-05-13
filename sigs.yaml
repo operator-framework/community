@@ -52,7 +52,7 @@ workinggroups:
     time: "15:00"
     tz: ET (Eastern Time)
     frequency: biweekly
-    url: https://docs.google.com/document/d/1hP2T8Hj0FxuRtFLm1yrJ66XBpXXEFBEXN7eW7wFArho/edit?usp=sharing
+    url: https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit
   contact:
     slack: kubernetes-operators
     mailing_list: https://groups.google.com/forum/#!forum/operator-framework-olm-dev

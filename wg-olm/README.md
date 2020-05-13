@@ -14,7 +14,7 @@ To organize and steer the development of projects that enable teams to manage th
   - The [Operator Registry project](https://github.com/operator-framework/operator-registry)
 
 ## Meetings
-* Regular WG Meeting: [Thursdays at 15:00 ET (Eastern Time)](https://docs.google.com/document/d/1hP2T8Hj0FxuRtFLm1yrJ66XBpXXEFBEXN7eW7wFArho/edit?usp=sharing) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
+* Regular WG Meeting: [Thursdays at 15:00 ET (Eastern Time)](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
 
 ## Organizers
 
