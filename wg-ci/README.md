@@ -22,6 +22,7 @@ Improve continuous integration (CI) for operators created, installed, and manage
 ## Contact
 - Slack: [#kubernetes-operators](https://kubernetes.slack.com/messages/kubernetes-operators)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework-wg-ci)
+- [Open Community Issues/PRs](https://github.com/kubernetes/community/labels/wg%2Fci)
 <!-- BEGIN CUSTOM CONTENT -->
 
 <!-- END CUSTOM CONTENT -->
