@@ -7,5 +7,20 @@ aliases:
     - awgreene
     - kevinrizza
 ## BEGIN CUSTOM CONTENT
-
+  community-chairs:
+    - dmueller2001
+    - ecordell
+    - joelanford
+    - shawn-hurley
+    - dmesser
+    - robszumski
+    - gerred
+  community-maintainers:
+    - dmueller2001
+    - ecordell
+    - joelanford
+    - shawn-hurley
+    - dmesser
+    - robszumski
+    - gerred
 ## END CUSTOM CONTENT
