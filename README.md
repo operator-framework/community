@@ -29,7 +29,7 @@ Discuss on:
 ### Operator CI Working Group
 
 * Wednesdays at 14:00 ET (Eastern Time) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Eastern%20Time%29).
-  * [Meeting notes and Agenda](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit)
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#)
   * Meeting recordings (coming soon!)
 
 ### Operator Lifecycle Manager Working Group
