@@ -35,5 +35,5 @@ Discuss on:
 ### Operator Lifecycle Manager Working Group
 
 * Thursdays at 15:00 ET (Eastern Time) (biweekly). [Convert to your timezone](https://www.thetimezoneconverter.com/?t=3%3A00%20pm&tz=Eastern%20Time%20(ET)&)
-  * [Meeting notes and Agenda](https://docs.google.com/document/d/1hP2T8Hj0FxuRtFLm1yrJ66XBpXXEFBEXN7eW7wFArho/edit?usp=sharing)
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit)
   * Meeting recordings (coming soon!)
