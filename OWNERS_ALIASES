@@ -6,6 +6,10 @@ aliases:
   wg-olm-leads:
     - awgreene
     - kevinrizza
+  wg-osdk-leads:
+    - estroz
+    - jberkhahn
+    - kensipe
 ## BEGIN CUSTOM CONTENT
   community-chairs:
     - dmueller2001
