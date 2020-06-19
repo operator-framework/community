@@ -2,7 +2,7 @@
 
 v1.0
 
-2020-01-17 
+2020-06-19 
 
 ## Introduction
 The charter describes the logistics of the Operator Framework community project.
@@ -81,6 +81,87 @@ A Call for Agreement is mandatory when:
 Once the Call for Agreement voting period has elapsed, all votes are counted, with at least a 51% majority of votes needed for consensus. A Chair will then declare the agreement “accepted” or “declined”, ending the Call for Agreement.
 
 Once rejected, a Call for Agreement must be revised before re-submission for a subsequent vote. All rejected Calls for Agreement will be reported to the Operator Framework Community as rejected.
+
+### Project Governance
+
+All Operator Framework projects must use Apache 2.0 license and align with the mission, scope, and code of conduct
+of the Operator Framework defined by this Operator Framework charter.
+
+Projects in the Operator Framework fall into two categories: Incubating and Graduated
+
+#### Incubating Projects
+
+In order to foster community growth and innovation in the development and administration of Kubernetes operators, the
+Operator Framework admits Incubating projects into the Operator Framework. These projects have a lower barrier to entry
+and do not include any support, maintenance, or production guarantees. They enable new ideas to gain traction
+and maturity.
+
+Criteria:
+
+1. Must have at least one active project maintainer who is a member of the Operator Framework community documented in
+   the project's OWNERS file. Three months of non-responsiveness constitutes grounds for maintainer replacement or 
+   project archival.
+1. Must be approved via the defined organizational decision-making process.
+
+
+#### Graduated Projects
+
+Graduated projects are the core projects that make up the Operator Framework. They are considered mature and are the
+essential components, tools, building blocks, and supporting documentation that represent the best practices of Operator
+development and administration. 
+
+Criteria:
+
+1. Must have at least three active project maintainers who are members of the Operator Framework community documented in
+   the project's OWNERS file. One month of non-responsiveness constitutes grounds for maintainer replacement or project
+   archival.
+1. Must be approved via a Call for Agreement.
+1. Must have regularly scheduled open community meetings.
+
+#### Project List
+
+##### Incubating
+
+* _No current incubating projects_.
+
+##### Graduated
+
+Operator SDK projects:
+* github.com/operator-framework/operator-sdk
+* github.com/operator-framework/operator-sdk-samples
+* github.com/operator-framework/operator-sdk-ansible-util 
+
+Operator Lifecycle Manager projects:
+* github.com/operator-framework/operator-lifecycle-manager
+* github.com/operator-framework/operator-registry
+* github.com/operator-framework/operator-marketplace
+* github.com/operator-framework/api
+* github.com/operator-framework/olm-docs
+* github.com/operator-framework/olm-book
+* github.com/operator-framework/operator-courier
+
+Supporting projects:
+* github.com/operator-framework/community
+* github.com/operator-framework/enhancements
+* github.com/operator-framework/operator-framework.io 
+* github.com/operator-framework/getting-started
+* github.com/operator-framework/awesome-operators
+* github.com/operator-framework/operatorhub.io 
+* github.com/operator-framework/community-operators
+* github.com/operator-framework/operatorhub-docs 
+
+##### Archived
+
+* github.com/operator-framework/helm-app-operator-kit
+
+##### Untriaged
+
+* github.com/operator-framework/bundle-example
+* github.com/operator-framework/mock-extension-apiserver 
+* github.com/operator-framework/olm-broker
+* github.com/operator-framework/go-appr
+* github.com/operator-framework/grpc-health-probe
+* github.com/operator-framework/operator-manifests
 
 ### Charter and Governing Documents
 
