@@ -7,7 +7,10 @@ Designs, technical proposals, and issues are tracked in the [operator-sdk repo](
 ## Get involved
 
 Discuss on:
-* [Kubernetes Slack in #kubernetes-operators](https://kubernetes.slack.com) ([Get invite](https://slack.k8s.io))
+* Kubernetes Slack ([Get invite](https://slack.k8s.io))
+  * Users: [#kubernetes-operators](https://kubernetes.slack.com/messages/kubernetes-operators)
+  * SDK Development: [#operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
+  * OLM Development: [#olm-dev](https://kubernetes.slack.com/messages/olm-dev)
 * [Operator Framework on Google Groups](https://groups.google.com/forum/#!forum/operator-framework)
 * [Operator Lifecycle Manager Development on Google Groups](https://groups.google.com/forum/#!forum/operator-framework-olm-dev)
 * [Operator Framework Commons SIG](https://commons.openshift.org/sig/OpenshiftOperators.html)

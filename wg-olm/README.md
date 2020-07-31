@@ -22,7 +22,7 @@ To organize and steer the development of projects that enable teams to manage th
 * Kevin Rizza (**[@kevinrizza](https://github.com/kevinrizza)**), Red Hat
 
 ## Contact
-- Slack: [#kubernetes-operators](https://kubernetes.slack.com/messages/kubernetes-operators)
+- Slack: [#olm-dev](https://kubernetes.slack.com/messages/olm-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework-olm-dev)
 - [Open Community Issues/PRs](https://github.com/kubernetes/community/labels/wg%2Folm)
 <!-- BEGIN CUSTOM CONTENT -->

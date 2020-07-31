@@ -54,7 +54,7 @@ workinggroups:
     frequency: biweekly
     url: https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit
   contact:
-    slack: kubernetes-operators
+    slack: olm-dev
     mailing_list: https://groups.google.com/forum/#!forum/operator-framework-olm-dev
 - dir: wg-osdk
   name: OSDK
@@ -82,7 +82,7 @@ workinggroups:
     frequency: monthly
     url: https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit
   contact:
-    slack: kubernetes-operators
+    slack: operator-sdk-dev
     mailing_list: https://groups.google.com/forum/#!forum/operator-framework
 usergroups: []
 committees: []
