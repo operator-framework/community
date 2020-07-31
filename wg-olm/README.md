@@ -24,7 +24,7 @@ To organize and steer the development of projects that enable teams to manage th
 ## Contact
 - Slack: [#olm-dev](https://kubernetes.slack.com/messages/olm-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework-olm-dev)
-- [Open Community Issues/PRs](https://github.com/kubernetes/community/labels/wg%2Folm)
+- [Open Community Issues/PRs](https://github.com/operator-framework/community/labels/wg%2Folm)
 <!-- BEGIN CUSTOM CONTENT -->
 
 <!-- END CUSTOM CONTENT -->

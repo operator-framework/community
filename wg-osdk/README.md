@@ -22,7 +22,7 @@ To organize and steer the development of the [Operator SDK](https://github.com/o
 ## Contact
 - Slack: [#operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework)
-- [Open Community Issues/PRs](https://github.com/kubernetes/community/labels/wg%2Fosdk)
+- [Open Community Issues/PRs](https://github.com/operator-framework/community/labels/wg%2Fosdk)
 <!-- BEGIN CUSTOM CONTENT -->
 
 <!-- END CUSTOM CONTENT -->
