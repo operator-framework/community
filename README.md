@@ -17,7 +17,7 @@ Discuss on:
 
 ## Meetings
 
-### Operator SDK
+### Operator SDK monthly meeting
 
 * Wednesdays at 09:00 PT (Pacific Time) (monthly - first Wednesday of the month). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
   * [Meeting Link](https://zoom.us/j/8415370125)
@@ -25,7 +25,7 @@ Discuss on:
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
   * Meeting recordings (coming soon!)
   
-### Operator SDK community issue triage
+### Operator SDK issue triage
 
   * Mondays at 11:00 PT (Pacific Time) [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Pacific%20Time%29).
   * [Issue Query](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
