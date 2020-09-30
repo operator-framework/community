@@ -17,22 +17,28 @@ Discuss on:
 
 ## Meetings
 
-### Operator Framework Special Interest Group
-
-* Monthly, on 3rd Tuesday 16:00 UTC [Convert to your timezone](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC)
-  * [Meeting link](https://bluejeans.com/8168972123)
-  * [Agenda](https://github.com/operator-framework/community/projects/2)
-
-### Operator SDK
+### Operator SDK monthly meeting
 
 * Wednesdays at 09:00 PT (Pacific Time) (monthly - first Wednesday of the month). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
+  * [Meeting Link](https://zoom.us/j/8415370125)
+  * Meeting Password: 77777
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
   * Meeting recordings (coming soon!)
   
-### Operator SDK community issue triage/grooming
+### Operator SDK issue triage
 
   * Mondays at 11:00 PT (Pacific Time) [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Pacific%20Time%29).
-  * [Meeting Link](https://bluejeans.com/912520104)
+  * [Issue Query](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
+  * [Meeting Link](https://zoom.us/j/8415370125)
+  * Meeting Password: 77777
+  * Meeting recordings (coming soon!)
+  
+### Operator SDK Grooming meeting
+  * Wednesdays 11:00 PT (Pacific Time) (Every 3 weeks) [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Pacific%20Time%29)
+  * [Meeting Link](https://zoom.us/j/8415370125)
+  * Meeting Password: 77777
+  * [Meeting notes and Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
+  * Meeting recordings (coming soon!)
 
 ### Operator CI Working Group
 
