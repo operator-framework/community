@@ -11,6 +11,8 @@ To understand how this file is generated, see https://git.k8s.io/community/gener
 To organize and steer the development of the [Operator SDK](https://github.com/operator-framework/operator-sdk) and related projects.
 
 ## Meetings
+* Backlog Grooming Meeting: [Wednesdays at 11:00 PT (Western Time)](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit) (triweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
+* Issue Traige Meeting: [Mondays at 11:00 PT (Western Time)](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
 * Regular WG Meeting: [Wednesdays at 09:00 PT (Western Time)](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit) (monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=09:00&tz=PT%20%28Western%20Time%29).
 
 ## Organizers
