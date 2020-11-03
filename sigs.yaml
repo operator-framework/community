@@ -75,6 +75,18 @@ workinggroups:
       name: Ken Sipe
       company: KUDO
   meetings:
+  - description: Backlog Grooming Meeting
+    day: Wednesday
+    time: "11:00"
+    tz: PT (Western Time)
+    frequency: triweekly
+    url: https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit
+  - description: Issue Traige Meeting
+    day: Monday
+    time: "11:00"
+    tz: PT (Western Time)
+    frequency: weekly
+    url: https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc
   - description: Regular WG Meeting
     day: Wednesday
     time: "09:00"
