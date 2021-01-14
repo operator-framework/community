@@ -17,37 +17,35 @@ Discuss on:
 
 ## Meetings
 
-### Operator SDK monthly meeting
+### Operator SDK WG
 
-* Wednesdays at 09:00 PT (Pacific Time) (monthly - first Wednesday of the month). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:00&tz=PT%20%28Pacific%20Time%29).
-  * [Meeting Link](https://zoom.us/j/8415370125)
-  * Meeting Password: 77777
-  * [Meeting notes and Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
-  * Meeting recordings (coming soon!)
-  
-### Operator SDK issue triage
+- Working Group
+  - [Meeting date, time, and recordings](/wg-osdk/README.md#meetings)
+  - [Meeting link](https://zoom.us/j/8415370125) (password: 77777)
+  - [Meeting notes and agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
+- Issue triage
+  - [Meeting date, time, and recordings](/wg-osdk/README.md#meetings)
+  - [Meeting link](https://zoom.us/j/8415370125) (password: 77777)
+  * [Issue query](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
+- Backlog grooming
+  - [Meeting date, time, and recordings](/wg-osdk/README.md#meetings)
+  - [Meeting link](https://zoom.us/j/8415370125) (password: 77777)
+  - [Meeting notes and agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
 
-  * Mondays at 11:00 PT (Pacific Time) [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Pacific%20Time%29).
-  * [Issue Query](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
-  * [Meeting Link](https://zoom.us/j/8415370125)
-  * Meeting Password: 77777
-  * Meeting recordings (coming soon!)
-  
-### Operator SDK Grooming meeting
-  * Wednesdays 11:00 PT (Pacific Time) (Every 3 weeks) [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Pacific%20Time%29)
-  * [Meeting Link](https://zoom.us/j/8415370125)
-  * Meeting Password: 77777
-  * [Meeting notes and Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
-  * Meeting recordings (coming soon!)
+### Operator CI WG
 
-### Operator CI Working Group
+- Working Group
+  - [Meeting date, time, and recordings](/wg-ci/README.md#meetings)
+  - [Meeting link](https://meet.google.com/tac-psgb-xuz)
+  - [Meeting notes and agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit)
 
-* Wednesdays at 14:00 ET (Eastern Time) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Eastern%20Time%29).
-  * [Meeting notes and Agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#)
-  * Meeting recordings (coming soon!)
+### Operator Lifecycle Manager WG
 
-### Operator Lifecycle Manager Working Group
-
-* Thursdays at 15:00 ET (Eastern Time) (biweekly). [Convert to your timezone](https://www.thetimezoneconverter.com/?t=3%3A00%20pm&tz=Eastern%20Time%20(ET)&)
-  * [Meeting notes and Agenda](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit)
-  * Meeting recordings (coming soon!)
+- Feature planning
+  - [Meeting date, time, and recordings](/wg-olm/README.md#meetings)
+  - [Meeting link](https://zoom.us/j/5511723751) (password: 77777)
+  - [Meeting notes and agenda](https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit)
+- Working Group
+  - [Meeting date, time, and recordings](/wg-olm/README.md#meetings)
+  - [Meeting link](https://zoom.us/j/5511723751) (password: 77777)
+  - [Meeting notes and agenda](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit)

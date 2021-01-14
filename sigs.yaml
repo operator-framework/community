@@ -48,7 +48,7 @@ workinggroups:
   meetings:
   - description: Feature Planning Meeting
     day: Thursday
-    time: "07:00"
+    time: "10:00"
     tz: ET (Eastern Time)
     frequency: biweekly
     url: https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit
