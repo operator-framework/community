@@ -9,12 +9,14 @@ To understand how this file is generated, see https://git.k8s.io/community/gener
 # OLM Working Group
 
 To organize and steer the development of projects that enable teams to manage the lifecycle of operators. These projects include:
-
   - The [Operator Lifecycle Manager project](https://github.com/operator-framework/operator-lifecycle-manager)
   - The [Operator Registry project](https://github.com/operator-framework/operator-registry)
 
 ## Meetings
+* Feature Planning Meeting: [Thursdays at 10:00 ET (Eastern Time)](https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=ET%20%28Eastern%20Time%29).
+  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXoywfA_VQdxkqP00-VBzEA).
 * Regular WG Meeting: [Thursdays at 15:00 ET (Eastern Time)](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
+  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXDvBtPlaAvPTaknPR0Uwi-).
 
 ## Organizers
 
