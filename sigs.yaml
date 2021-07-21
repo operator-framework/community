@@ -35,7 +35,6 @@ workinggroups:
     the lifecycle of operators. These projects include:
       - The [Operator Lifecycle Manager project](https://github.com/operator-framework/operator-lifecycle-manager)
       - The [Operator Registry project](https://github.com/operator-framework/operator-registry)
-
   label: olm
   leadership:
     chairs:
@@ -72,6 +71,9 @@ workinggroups:
   label: osdk
   leadership:
     chairs:
+    - github: asmacdo
+      name: Austin Macdonald
+      company: Red Hat
     - github: estroz
       name: Eric Stroczynski
       company: Red Hat
