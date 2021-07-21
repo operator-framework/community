@@ -80,7 +80,7 @@ workinggroups:
       company: IBM
     - github: kensipe
       name: Ken Sipe
-      company: KUDO
+      company: Code Mentor
   meetings:
   - description: Backlog Grooming Meeting
     day: Wednesday

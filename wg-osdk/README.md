@@ -22,7 +22,7 @@ To organize and steer the development of the [Operator SDK](https://github.com/o
 
 * Eric Stroczynski (**[@estroz](https://github.com/estroz)**), Red Hat
 * Jonathan Berkhahn (**[@jberkhahn](https://github.com/jberkhahn)**), IBM
-* Ken Sipe (**[@kensipe](https://github.com/kensipe)**), KUDO
+* Ken Sipe (**[@kensipe](https://github.com/kensipe)**), Code Mentor
 
 ## Contact
 - Slack: [#operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
