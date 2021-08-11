@@ -33,14 +33,17 @@ workinggroups:
   mission_statement: >
     To organize and steer the development of projects that enable teams to manage
     the lifecycle of operators. These projects include:
+
       - The [Operator Lifecycle Manager project](https://github.com/operator-framework/operator-lifecycle-manager)
       - The [Operator Registry project](https://github.com/operator-framework/operator-registry)
-
   label: olm
   leadership:
     chairs:
     - github: awgreene
       name: Alexander Greene
+      company: Red Hat
+    - github: exdx
+      name: Daniel Sover
       company: Red Hat
     - github: kevinrizza
       name: Kevin Rizza
@@ -72,6 +75,9 @@ workinggroups:
   label: osdk
   leadership:
     chairs:
+    - github: asmacdo
+      name: Austin Macdonald
+      company: Red Hat
     - github: estroz
       name: Eric Stroczynski
       company: Red Hat

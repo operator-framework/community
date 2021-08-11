@@ -21,8 +21,8 @@ To organize and steer the development of projects that enable teams to manage th
 ## Organizers
 
 * Alexander Greene (**[@awgreene](https://github.com/awgreene)**), Red Hat
-* Kevin Rizza (**[@kevinrizza](https://github.com/kevinrizza)**), Red Hat
 * Daniel Sover (**[@exdx](https://github.com/exdx)**), Red Hat
+* Kevin Rizza (**[@kevinrizza](https://github.com/kevinrizza)**), Red Hat
 
 ## Contact
 - Slack: [#olm-dev](https://kubernetes.slack.com/messages/olm-dev)
