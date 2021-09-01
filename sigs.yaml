@@ -33,7 +33,6 @@ workinggroups:
   mission_statement: >
     To organize and steer the development of projects that enable teams to manage
     the lifecycle of operators. These projects include:
-
       - The [Operator Lifecycle Manager project](https://github.com/operator-framework/operator-lifecycle-manager)
       - The [Operator Registry project](https://github.com/operator-framework/operator-registry)
   label: olm
@@ -78,15 +77,15 @@ workinggroups:
     - github: asmacdo
       name: Austin Macdonald
       company: Red Hat
-    - github: estroz
-      name: Eric Stroczynski
-      company: Red Hat
     - github: jberkhahn
       name: Jonathan Berkhahn
       company: IBM
     - github: kensipe
       name: Ken Sipe
       company: Code Mentor
+    - github: varshaprasad96
+      name: Varsha Prasad Narsing
+      company: Red Hat
   meetings:
   - description: Backlog Grooming Meeting
     day: Wednesday
