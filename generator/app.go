@@ -34,16 +34,13 @@ import (
 // TODO(asmacdo) config.yaml
 const (
 	readmeTemplate   = "readme.tmpl"
-	listTemplate     = "list.tmpl"
 	aliasesTemplate  = "aliases.tmpl"
 	liaisonsTemplate = "liaisons.tmpl"
 	headerTemplate   = "header.tmpl"
 
-	sigsYamlFile     = "sigs.yaml"
-	sigListOutput    = "sig-list.md"
-	aliasesOutput    = "OWNERS_ALIASES"
-	indexFilename    = "README.md"
-	liaisonsFilename = "liaisons.md"
+	sigsYamlFile  = "sigs.yaml"
+	aliasesOutput = "OWNERS_ALIASES"
+	readmeOutput  = "README.md"
 
 	beginCustomMarkdown = "<!-- BEGIN CUSTOM CONTENT -->"
 	endCustomMarkdown   = "<!-- END CUSTOM CONTENT -->"
@@ -55,6 +52,7 @@ const (
 )
 
 var (
+	outputDir        = ""
 	baseGeneratorDir = "generator"
 	templateDir      = "templates"
 )
@@ -417,6 +415,7 @@ func tzURLEncode(tz string) string {
 }
 
 func writeTemplate(templatePath, outputPath string, fileFormat string, data interface{}) error {
+	fmt.Printf("Generating %s", outputPath)
 	// set up template
 	t, err := template.New(filepath.Base(templatePath)).
 		Funcs(funcMap).
@@ -480,37 +479,6 @@ func writeCustomContentBlock(f *os.File, content string, fileFormat string) {
 	}
 }
 
-func createGroupReadme(groups []Group, prefix string) error {
-	// figure out if the user wants to generate one group
-	var selectedGroupName *string
-	if envVal, ok := os.LookupEnv("WHAT"); ok {
-		selectedGroupName = &envVal
-	}
-
-	for _, group := range groups {
-		// skip generation if the user specified only one group
-		if selectedGroupName != nil && strings.HasSuffix(group.Dir, *selectedGroupName) == false {
-			fmt.Printf("Skipping %s/README.md\n", group.Dir)
-			continue
-		}
-
-		fmt.Printf("Generating %s/README.md\n", group.Dir)
-
-		outputDir := filepath.Join(baseGeneratorDir, group.Dir)
-		if err := createDirIfNotExists(outputDir); err != nil {
-			return err
-		}
-
-		outputPath := filepath.Join(outputDir, indexFilename)
-		readmePath := filepath.Join(baseGeneratorDir, templateDir, fmt.Sprintf("%s_%s", prefix, readmeTemplate))
-		if err := writeTemplate(readmePath, outputPath, "markdown", group); err != nil {
-			return err
-		}
-	}
-
-	return nil
-}
-
 // readSigsYaml decodes yaml stored in a file at path into the
 // specified yaml.Node
 func readYaml(path string, data interface{}) error {
@@ -538,17 +506,16 @@ func writeYaml(data interface{}, path string) error {
 }
 
 func main() {
-	yamlPath := filepath.Join(baseGeneratorDir, sigsYamlFile)
 	var ctx Context
 
-	err := readYaml(yamlPath, &ctx)
+	err := readYaml(sigsYamlFile, &ctx)
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	ctx.Sort()
 
-	fmt.Printf("Validating %s\n", yamlPath)
+	fmt.Printf("Validating %s\n", sigsYamlFile)
 	errs := ctx.Validate()
 	if len(errs) != 0 {
 		for _, err := range errs {
@@ -557,40 +524,15 @@ func main() {
 		os.Exit(1)
 	}
 
-	// Write the Context struct back to yaml to enforce formatting
-	err = writeYaml(&ctx, yamlPath)
+	fmt.Println("Generating readme")
+	err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, readmeTemplate), readmeOutput, "markdown", ctx)
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	fmt.Println("Generating group READMEs")
-	for prefix, groups := range ctx.PrefixToGroupMap() {
-		err = createGroupReadme(groups, prefix)
-		if err != nil {
-			log.Fatal(err)
-		}
+	fmt.Println("Generating OWNERS_ALIASES")
+	err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, aliasesTemplate), aliasesOutput, "yaml", ctx)
+	if err != nil {
+		log.Fatal(err)
 	}
-
-	// fmt.Println("Generating sig-list.md")
-	// outputPath := filepath.Join(baseGeneratorDir, sigListOutput)
-	// err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, listTemplate), outputPath, "markdown", ctx)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	//
-	// fmt.Println("Generating OWNERS_ALIASES")
-	// outputPath = filepath.Join(baseGeneratorDir, aliasesOutput)
-	// err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, aliasesTemplate), outputPath, "yaml", ctx)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	//
-	// fmt.Println("Generating liaisons.md")
-	// outputPath = filepath.Join(baseGeneratorDir, liaisonsFilename)
-	// err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, liaisonsTemplate), outputPath, "markdown", ctx)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// }
-	//
 	fmt.Println("Finished generation!")
 }
