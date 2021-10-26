@@ -23,6 +23,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"text/template"
@@ -30,26 +31,32 @@ import (
 	yaml "gopkg.in/yaml.v3"
 )
 
+// TODO(asmacdo) config.yaml
 const (
-	readmeTemplate  = "readme.tmpl"
-	listTemplate    = "list.tmpl"
-	aliasesTemplate = "aliases.tmpl"
-	headerTemplate  = "header.tmpl"
+	readmeTemplate   = "readme.tmpl"
+	listTemplate     = "list.tmpl"
+	aliasesTemplate  = "aliases.tmpl"
+	liaisonsTemplate = "liaisons.tmpl"
+	headerTemplate   = "header.tmpl"
 
-	sigsYamlFile  = "sigs.yaml"
-	sigListOutput = "sig-list.md"
-	aliasesOutput = "OWNERS_ALIASES"
-	indexFilename = "README.md"
+	sigsYamlFile     = "sigs.yaml"
+	sigListOutput    = "sig-list.md"
+	aliasesOutput    = "OWNERS_ALIASES"
+	indexFilename    = "README.md"
+	liaisonsFilename = "liaisons.md"
 
 	beginCustomMarkdown = "<!-- BEGIN CUSTOM CONTENT -->"
 	endCustomMarkdown   = "<!-- END CUSTOM CONTENT -->"
 	beginCustomYaml     = "## BEGIN CUSTOM CONTENT"
 	endCustomYaml       = "## END CUSTOM CONTENT"
+
+	regexRawGitHubURL = "https://raw.githubusercontent.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/(?P<branch>[^/]+)/(?P<path>.*)"
+	regexGitHubURL    = "https://github.com/(?P<org>[^/]+)/(?P<repo>[^/]+)/(blob|tree)/(?P<branch>[^/]+)/(?P<path>.*)"
 )
 
 var (
-	baseGeneratorDir = ""
-	templateDir      = "generator"
+	baseGeneratorDir = "generator"
+	templateDir      = "templates"
 )
 
 // FoldedString is a string that will be serialized in FoldedStyle by go-yaml
@@ -89,6 +96,7 @@ type Contact struct {
 	MailingList        string       `yaml:"mailing_list,omitempty"`
 	PrivateMailingList string       `yaml:"private_mailing_list,omitempty"`
 	GithubTeams        []GithubTeam `yaml:"teams,omitempty"`
+	Liaison            Person       `yaml:"liaison,omitempty"`
 }
 
 // GithubTeam represents a specific Github Team.
@@ -120,6 +128,29 @@ func (g *LeadershipGroup) PrefixToPersonMap() map[string][]Person {
 		"tech_lead":     g.TechnicalLeads,
 		"emeritus_lead": g.EmeritusLeads,
 	}
+}
+
+// Owners returns a sorted and de-duped list of owners for a LeadershipGroup
+func (g *LeadershipGroup) Owners() []Person {
+	o := append(g.Chairs, g.TechnicalLeads...)
+
+	// Sort
+	sort.Slice(o, func(i, j int) bool {
+		return o[i].GitHub < o[j].GitHub
+	})
+
+	// De-dupe
+	seen := make(map[string]struct{}, len(o))
+	i := 0
+	for _, p := range o {
+		if _, ok := seen[p.GitHub]; ok {
+			continue
+		}
+		seen[p.GitHub] = struct{}{}
+		o[i] = p
+		i++
+	}
+	return o[:i]
 }
 
 // Group represents either a Special Interest Group (SIG) or a Working Group (WG)
@@ -188,7 +219,7 @@ func (c *Context) Sort() {
 				group.Leadership.TechnicalLeads,
 				group.Leadership.EmeritusLeads} {
 				sort.Slice(people, func(i, j int) bool {
-					// This ensure OWNERS / OWNERS_ALIAS files are ordered by github
+					// This ensure OWNERS / OWNERS_ALIASES files are ordered by github
 					return people[i].GitHub < people[j].GitHub
 				})
 			}
@@ -220,6 +251,8 @@ func (c *Context) Sort() {
 func (c *Context) Validate() []error {
 	errors := []error{}
 	people := make(map[string]Person)
+	reRawGitHubURL := regexp.MustCompile(regexRawGitHubURL)
+	reGitHubURL := regexp.MustCompile(regexGitHubURL)
 	for prefix, groups := range c.PrefixToGroupMap() {
 		for _, group := range groups {
 			expectedDir := group.DirName(prefix)
@@ -266,6 +299,21 @@ func (c *Context) Validate() []error {
 				}
 				if len(group.Subprojects) == 0 {
 					errors = append(errors, fmt.Errorf("%s: has no subprojects", group.Dir))
+				}
+			}
+			if prefix != "committee" && prefix != "sig" {
+				if len(group.Subprojects) > 0 {
+					errors = append(errors, fmt.Errorf("%s: only sigs and committees can own code / have subprojects, found: %v", group.Dir, group.Subprojects))
+				}
+			}
+			for _, subproject := range group.Subprojects {
+				if len(subproject.Owners) == 0 {
+					errors = append(errors, fmt.Errorf("%s/%s: subproject has no owners", group.Dir, subproject.Name))
+				}
+				for _, ownerURL := range subproject.Owners {
+					if !reRawGitHubURL.MatchString(ownerURL) && !reGitHubURL.MatchString(ownerURL) {
+						errors = append(errors, fmt.Errorf("%s/%s: subproject owners should match regexp %s, found: %s", group.Dir, subproject.Name, regexRawGitHubURL, ownerURL))
+					}
 				}
 			}
 		}
@@ -327,6 +375,38 @@ func getExistingContent(path string, fileFormat string) (string, error) {
 var funcMap = template.FuncMap{
 	"tzUrlEncode": tzURLEncode,
 	"trimSpace":   strings.TrimSpace,
+	"trimSuffix":  strings.TrimSuffix,
+	"githubURL":   githubURL,
+	"orgRepoPath": orgRepoPath,
+}
+
+// githubURL converts a raw GitHub url (links directly to file contents) into a
+// regular GitHub url (links to Code view for file), otherwise returns url untouched
+func githubURL(url string) string {
+	re := regexp.MustCompile(regexRawGitHubURL)
+	mat := re.FindStringSubmatchIndex(url)
+	if mat == nil {
+		return url
+	}
+	result := re.ExpandString([]byte{}, "https://github.com/${org}/${repo}/blob/${branch}/${path}", url, mat)
+	return string(result)
+}
+
+// orgRepoPath converts either
+//  - a regular GitHub url of form https://github.com/org/repo/blob/branch/path/to/file
+//  - a raw GitHub url of form https://raw.githubusercontent.com/org/repo/branch/path/to/file
+// to a string of form 'org/repo/path/to/file'
+func orgRepoPath(url string) string {
+	for _, regex := range []string{regexRawGitHubURL, regexGitHubURL} {
+		re := regexp.MustCompile(regex)
+		mat := re.FindStringSubmatchIndex(url)
+		if mat == nil {
+			continue
+		}
+		result := re.ExpandString([]byte{}, "${org}/${repo}/${path}", url, mat)
+		return string(result)
+	}
+	return url
 }
 
 // tzUrlEncode returns a url encoded string without the + shortcut. This is
@@ -483,6 +563,7 @@ func main() {
 		log.Fatal(err)
 	}
 
+	fmt.Println("Generating group READMEs")
 	for prefix, groups := range ctx.PrefixToGroupMap() {
 		err = createGroupReadme(groups, prefix)
 		if err != nil {
@@ -490,19 +571,26 @@ func main() {
 		}
 	}
 
-	fmt.Println("Generating sig-list.md")
-	outputPath := filepath.Join(baseGeneratorDir, sigListOutput)
-	err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, listTemplate), outputPath, "markdown", ctx)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Println("Generating OWNERS_ALIASES")
-	outputPath = filepath.Join(baseGeneratorDir, aliasesOutput)
-	err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, aliasesTemplate), outputPath, "yaml", ctx)
-	if err != nil {
-		log.Fatal(err)
-	}
-
+	// fmt.Println("Generating sig-list.md")
+	// outputPath := filepath.Join(baseGeneratorDir, sigListOutput)
+	// err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, listTemplate), outputPath, "markdown", ctx)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	//
+	// fmt.Println("Generating OWNERS_ALIASES")
+	// outputPath = filepath.Join(baseGeneratorDir, aliasesOutput)
+	// err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, aliasesTemplate), outputPath, "yaml", ctx)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	//
+	// fmt.Println("Generating liaisons.md")
+	// outputPath = filepath.Join(baseGeneratorDir, liaisonsFilename)
+	// err = writeTemplate(filepath.Join(baseGeneratorDir, templateDir, liaisonsTemplate), outputPath, "markdown", ctx)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	//
 	fmt.Println("Finished generation!")
 }
