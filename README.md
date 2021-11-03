@@ -1,12 +1,10 @@
 # Operator Framework Community
 
-This repository contains community process, charter, and coordination documents for the Operator Framework Project,
-
-Designs, technical proposals, and issues are tracked in the [operator-sdk repo](https://github.com/operator-framework/operator-sdk/tree/master/doc) and [operator-lifeycle-manager repo](https://github.com/operator-framework/operator-lifecycle-manager/tree/master/doc/design).
+Welcome to the Operator Framework community repo, which contains the Operator
+Framework process, charter, and coordination documents.
 
 ## Get involved
 
-Discuss on:
 * Kubernetes Slack ([Get invite](https://slack.k8s.io))
   * Users: [#kubernetes-operators](https://kubernetes.slack.com/messages/kubernetes-operators)
   * SDK Development: [#operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
@@ -15,37 +13,72 @@ Discuss on:
 * [Operator Lifecycle Manager Development on Google Groups](https://groups.google.com/forum/#!forum/operator-framework-olm-dev)
 * [Operator Framework Commons SIG](https://commons.openshift.org/sig/OpenshiftOperators.html)
 
-## Meetings
+## Working Groups
 
-### Operator SDK WG
+Most Operator Framework community activity is organized into Working Groups;
+each may operate a little differently depending on their needs and workflow.
 
-- Working Group
-  - [Meeting date, time, and recordings](/wg-osdk/README.md#meetings)
-  - [Meeting link](https://zoom.us/j/8415370125) (password: 77777)
-  - [Meeting notes and agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
-- Issue triage
-  - [Meeting date, time, and recordings](/wg-osdk/README.md#meetings)
-  - [Meeting link](https://zoom.us/j/8415370125) (password: 77777)
-  * [Issue query](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
-- Backlog grooming
-  - [Meeting date, time, and recordings](/wg-osdk/README.md#meetings)
-  - [Meeting link](https://zoom.us/j/8415370125) (password: 77777)
-  - [Meeting notes and agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit#)
+## CI Working Group
 
-### Operator CI WG
+Improve continuous integration (CI) for operators created, installed, and managed by components of Operator Framework.
 
-- Working Group
-  - [Meeting date, time, and recordings](/wg-ci/README.md#meetings)
-  - [Meeting link](https://meet.google.com/tac-psgb-xuz)
-  - [Meeting notes and agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit)
+### Meetings
 
-### Operator Lifecycle Manager WG
+* Regular WG Meeting: [Wednesdays at 14:00 ET (Eastern Time)](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#heading=h.g1tg5lyjvb51) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=14:00&tz=ET%20%28Eastern%20Time%29).
 
-- Feature planning
-  - [Meeting date, time, and recordings](/wg-olm/README.md#meetings)
-  - [Meeting link](https://zoom.us/j/5511723751) (password: 77777)
-  - [Meeting notes and agenda](https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit)
-- Working Group
-  - [Meeting date, time, and recordings](/wg-olm/README.md#meetings)
-  - [Meeting link](https://zoom.us/j/5511723751) (password: 77777)
-  - [Meeting notes and agenda](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit)
+#### Organizers
+
+* Lance Galletti (**[@gallettilance](https://github.com/gallettilance)**), Red Hat
+* Nick Hale (**[@njhale](https://github.com/njhale)**), Red Hat
+* Shawn Hurley (**[@shawn-hurley](https://github.com/shawn-hurley)**), Red Hat
+
+#### Contact
+- Slack: [##kubernetes-operators](https://kubernetes.slack.com/messages/kubernetes-operators)
+- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework-wg-ci)
+
+## Operator Lifecycle Manager Working Group
+
+To organize and steer the development of projects that enable teams to manage the lifecycle of operators. These projects include:
+  - The [Operator Lifecycle Manager project](https://github.com/operator-framework/operator-lifecycle-manager)
+  - The [Operator Registry project](https://github.com/operator-framework/operator-registry)
+
+### Meetings
+
+* Issue Triage: [Thursdays at 10:00 ET (Eastern Time)](https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=ET%20%28Eastern%20Time%29).
+  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXoywfA_VQdxkqP00-VBzEA).
+* Regular WG: [Thursdays at 15:00 ET (Eastern Time)](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
+  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXDvBtPlaAvPTaknPR0Uwi-).
+
+### Organizers
+
+* Alexander Greene (**[@awgreene](https://github.com/awgreene)**), Red Hat
+* Daniel Sover (**[@exdx](https://github.com/exdx)**), Red Hat
+* Kevin Rizza (**[@kevinrizza](https://github.com/kevinrizza)**), Red Hat
+
+### Contact
+
+- Slack: [##olm-dev](https://kubernetes.slack.com/messages/olm-dev)
+- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework-olm-dev)
+
+## Operator SDK Working Group
+
+To organize and steer the development of the [Operator SDK](https://github.com/operator-framework/operator-sdk) and related projects.
+
+### Meetings
+
+* Issue Triage Meeting: [Mondays at 11:00 PT (Western Time)](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
+  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXxkVh27ExScB_wEmhBLY7g).
+* Backlog Grooming Meeting: [Wednesdays at 11:00 PT (Western Time)](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit) (triweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
+  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXxkVh27ExScB_wEmhBLY7g).
+
+### Organizers
+
+* Austin Macdonald (**[@asmacdo](https://github.com/asmacdo)**), Red Hat
+* Jonathan Berkhahn (**[@jberkhahn](https://github.com/jberkhahn)**), IBM
+* Ken Sipe (**[@kensipe](https://github.com/kensipe)**), Code Mentor
+* Varsha Prasad Narsing (**[@varshaprasad96](https://github.com/varshaprasad96)**), Red Hat
+
+### Contact
+
+- Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
+- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework)
