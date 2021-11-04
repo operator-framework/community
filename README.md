@@ -82,3 +82,26 @@ To organize and steer the development of the [Operator SDK](https://github.com/o
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework)
+
+## Javea Operator Plugins Working Group
+
+To organize and steer the development of 
+ - [java-operator-plugins](https://github.com/operator-framework/java-operator-plugins)
+ - [java-operator-sdk](https://github.com/java-operator-sdk/java-operator-sdk)
+
+### Meetings
+
+* Issue Triage and Community Meeting: [Thursdays at 11:00 ET (Eastern Time)](https://docs.google.com/document/d/1d_x7JHnjhKh8DgUO9F83kZ43Y3Ladl6sHWzst2ugV84/edit#) (weekly). [Convert to your timezone](https://dateful.com/time-zone-converter?t=11:00&tz=ET%20(Eastern%20Time))
+
+### Organizers
+
+* Jesus M. Rodriguez (**[@jmrodri](https://github.com/jmrodri)**), Red Hat
+* Attila Mészáros  (**[@csviri](https://github.com/csviri)**), Red Hat
+* Adam Sandor (**[@adam-sandor](https://github.com/adam-sandor)**), Styra.com
+* Christophe Laprun (**[@metacosm](https://github.com/metacosm)**), Red Hat
+
+### Contact
+
+- Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
+- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
+
