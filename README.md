@@ -83,7 +83,7 @@ To organize and steer the development of the [Operator SDK](https://github.com/o
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework)
 
-## Javea Operator Plugins Working Group
+## Java Operator Plugins Working Group
 
 To organize and steer the development of 
  - [java-operator-plugins](https://github.com/operator-framework/java-operator-plugins)
@@ -104,4 +104,3 @@ To organize and steer the development of
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
-
