@@ -107,7 +107,7 @@ To organize and steer the development of
 
 ## Helm Operator Plugins Working Group
 
-To organize and steer the development of [helm-operator-plugins](https://github.com/operator-framework/helm-operator-plugins) for the SDK, and related projects.
+To organize and steer the development of [helm-operator-plugins](https://github.com/operator-framework/helm-operator-plugins) and related projects.
 
 ### Meetings
 
