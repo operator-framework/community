@@ -104,3 +104,22 @@ To organize and steer the development of
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
+
+## Helm Operator Plugins Working Group
+
+To organize and steer the development of [helm-operator-plugins](https://github.com/operator-framework/helm-operator-plugins) and related projects.
+
+### Meetings
+
+* Issue Triage and Community Meeting: [Tuesdays at 11:00 ET (Eastern Time)](https://github.com/operator-framework/helm-operator-plugins/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Estern%20Time%29).
+
+### Organizers
+
+* Fabian von Feilitzsch (**[@fabianvf](https://github.com/fabianvf)**), Red Hat
+* Simon Baumer (**[@SimonBaeumer](https://github.com/SimonBaeumer)**), Red Hat
+* Varsha Prasad Narsing (**[@varshaprasad96](https://github.com/varshaprasad96)**), Red Hat
+
+### Contact
+
+- Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
+- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
