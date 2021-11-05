@@ -111,13 +111,35 @@ To organize and steer the development of [helm-operator-plugins](https://github.
 
 ### Meetings
 
-* Issue Triage and Community Meeting: [Tuesdays at 11:00 ET (Eastern Time)](https://github.com/operator-framework/helm-operator-plugins/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Estern%20Time%29).
+* Issue Triage and Community Meeting: [Tuesdays at 11:00 ET (Eastern Time)](https://github.com/operator-framework/helm-operator-plugins/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Eastern%20Time%29).
 
 ### Organizers
 
 * Fabian von Feilitzsch (**[@fabianvf](https://github.com/fabianvf)**), Red Hat
 * Simon Baumer (**[@SimonBaeumer](https://github.com/SimonBaeumer)**), Red Hat
 * Varsha Prasad Narsing (**[@varshaprasad96](https://github.com/varshaprasad96)**), Red Hat
+
+### Contact
+
+- Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
+- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
+
+## Ansible Working Group
+
+To organize and steer the development of Ansible-based Operators and related projects:
+* [Ansible-based Operators](https://github.com/operator-framework/operator-sdk)
+* [operator_sdk.util Ansible collection](https://github.com/operator-framework/operator-sdk-ansible-util)
+* [kubernetes.core Ansible collection](https://github.com/ansible-collections/kubernetes.core)
+
+### Meetings
+
+* Community Meeting: [Third Monday at 12:00 ET (Eastern Time)](https://docs.google.com/document/d/1Bo68RhJkpr0Nk_JpkBdbkgmi3c2WtfdvFZ0jVSJzvXo/edit?usp=sharing) (monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=12:00&tz=ET%20%28Eastern%20Time%29).
+
+### Organizers
+
+* Austin Macdonald (**[@asmacdo](https://github.com/asmacdo/)**), Red Hat
+* Fabian von Feilitzsch (**[@fabianvf](https://github.com/fabianvf)**), Red Hat
+* Tim Appnel (**[@tima](https://github.com/tima)**), Red Hat
 
 ### Contact
 
