@@ -24,7 +24,9 @@ Improve continuous integration (CI) for operators created, installed, and manage
 
 ### Meetings
 
-* Regular WG Meeting: [Wednesdays at 14:00 ET (Eastern Time)](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#heading=h.g1tg5lyjvb51) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=14:00&tz=ET%20%28Eastern%20Time%29).
+* Regular WG Meeting: Wednesdays (biweekly) at 14:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=14:00&tz=ET%20%28Eastern%20Time%29).
+    * [Meeting Link][meeting-link]: Password: 77777
+    * [Agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#heading=h.g1tg5lyjvb51)
 
 #### Organizers
 
@@ -33,6 +35,7 @@ Improve continuous integration (CI) for operators created, installed, and manage
 * Shawn Hurley (**[@shawn-hurley](https://github.com/shawn-hurley)**), Red Hat
 
 #### Contact
+
 - Slack: [##kubernetes-operators](https://kubernetes.slack.com/messages/kubernetes-operators)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework-wg-ci)
 
@@ -44,10 +47,14 @@ To organize and steer the development of projects that enable teams to manage th
 
 ### Meetings
 
-* Issue Triage: [Thursdays at 10:00 ET (Eastern Time)](https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=ET%20%28Eastern%20Time%29).
-  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXoywfA_VQdxkqP00-VBzEA).
-* Regular WG: [Thursdays at 15:00 ET (Eastern Time)](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
-  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXDvBtPlaAvPTaknPR0Uwi-).
+* Issue Triage: Thursdays (biweekly) at 10:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=ET%20%28Eastern%20Time%29).
+    * [Meeting Link][meeting-link]: Password: 77777
+    * [Agenda](https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit)
+    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXoywfA_VQdxkqP00-VBzEA).
+* Regular WG: Thursdays (biweekly) at 15:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
+    * [Meeting Link][meeting-link]: Password: 77777
+    * [Agenda](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit)
+    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXDvBtPlaAvPTaknPR0Uwi-).
 
 ### Organizers
 
@@ -66,10 +73,14 @@ To organize and steer the development of the [Operator SDK](https://github.com/o
 
 ### Meetings
 
-* Issue Triage Meeting: [Mondays at 11:00 PT (Western Time)](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
-  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXxkVh27ExScB_wEmhBLY7g).
-* Backlog Grooming Meeting: [Wednesdays at 11:00 PT (Western Time)](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit) (triweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
-  * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXxkVh27ExScB_wEmhBLY7g).
+* Issue Triage Meeting: Mondays (weekly) at 11:00 Western Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
+    * [Meeting Link][meeting-link]: Password: 77777
+    * [Issue Query](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
+    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXxkVh27ExScB_wEmhBLY7g).
+* Backlog Grooming Meeting: Wednesdays (every 3 weeks) at 11:00 Western Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
+    * [Meeting Link][meeting-link]: Password: 77777
+    * [Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit)
+    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXxkVh27ExScB_wEmhBLY7g).
 
 ### Organizers
 
@@ -91,7 +102,9 @@ To organize and steer the development of
 
 ### Meetings
 
-* Issue Triage and Community Meeting: [Thursdays at 11:00 ET (Eastern Time)](https://docs.google.com/document/d/1d_x7JHnjhKh8DgUO9F83kZ43Y3Ladl6sHWzst2ugV84/edit#) (weekly). [Convert to your timezone](https://dateful.com/time-zone-converter?t=11:00&tz=ET%20(Eastern%20Time))
+* Issue Triage and Community Meeting: Thursdays (weekly) at 11:00 ET. [Convert to your timezone](https://dateful.com/time-zone-converter?t=11:00&tz=ET%20(Eastern%20Time))
+    * [Meeting Link][meeting-link]: Password: 77777
+    * [Agenda](https://docs.google.com/document/d/1d_x7JHnjhKh8DgUO9F83kZ43Y3Ladl6sHWzst2ugV84/edit#)
 
 ### Organizers
 
@@ -111,7 +124,9 @@ To organize and steer the development of [helm-operator-plugins](https://github.
 
 ### Meetings
 
-* Issue Triage and Community Meeting: [Tuesdays at 11:00 ET (Eastern Time)](https://github.com/operator-framework/helm-operator-plugins/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Eastern%20Time%29).
+* Issue Triage and Community Meeting: Tuesdays (biweekly) at 11:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Eastern%20Time%29).
+    * [Meeting Link][meeting-link]: Password: 77777
+    * [Issue Query](https://github.com/operator-framework/helm-operator-plugins/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
 
 ### Organizers
 
@@ -133,7 +148,8 @@ To organize and steer the development of Ansible-based Operators and related pro
 
 ### Meetings
 
-* Community Meeting: [Third Monday at 12:00 ET (Eastern Time)](https://docs.google.com/document/d/1Bo68RhJkpr0Nk_JpkBdbkgmi3c2WtfdvFZ0jVSJzvXo/edit?usp=sharing) (monthly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=12:00&tz=ET%20%28Eastern%20Time%29).
+* Community Meeting: Third Monday (monthly) at 12:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=12:00&tz=ET%20%28Eastern%20Time%29).
+    * [Agenda](https://docs.google.com/document/d/1Bo68RhJkpr0Nk_JpkBdbkgmi3c2WtfdvFZ0jVSJzvXo/edit?usp=sharing)
 
 ### Organizers
 
@@ -145,3 +161,5 @@ To organize and steer the development of Ansible-based Operators and related pro
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
+
+[meeting-link]: https://zoom.us/j/8415370125
