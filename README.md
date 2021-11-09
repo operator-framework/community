@@ -131,7 +131,7 @@ To organize and steer the development of [helm-operator-plugins](https://github.
 ### Organizers
 
 * Fabian von Feilitzsch (**[@fabianvf](https://github.com/fabianvf)**), Red Hat
-* Simon Baumer (**[@SimonBaeumer](https://github.com/SimonBaeumer)**), Red Hat
+* Simon Bäumer (**[@SimonBaeumer](https://github.com/SimonBaeumer)**), Red Hat
 * Varsha Prasad Narsing (**[@varshaprasad96](https://github.com/varshaprasad96)**), Red Hat
 
 ### Contact
