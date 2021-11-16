@@ -128,6 +128,7 @@ To organize and steer the development of [helm-operator-plugins](https://github.
 * Issue Triage and Community Meeting: Tuesdays (biweekly) at 11:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Eastern%20Time%29).
     * [Meeting Link][meeting-link]: Password: 77777
     * [Issue Query](https://github.com/operator-framework/helm-operator-plugins/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
+    * [Agenda](https://docs.google.com/document/d/112b0ZhSid8exnm72sMT7rDzBEkLlE5s74s0pcn44ssg/edit#)
 
 ### Organizers
 
