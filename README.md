@@ -153,6 +153,7 @@ To organize and steer the development of Ansible-based Operators and related pro
 * Community Meeting and Triage: Third Monday (monthly) at 12:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=12:00&tz=ET%20%28Eastern%20Time%29).
     * [Meeting Link][meeting-link]: Password: 77777
     * [Agenda](https://docs.google.com/document/d/1Bo68RhJkpr0Nk_JpkBdbkgmi3c2WtfdvFZ0jVSJzvXo/edit?usp=sharing)
+    * [Recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeWicUrCkNjH33zVc7S0QDBv)
 
 ### Organizers
 
