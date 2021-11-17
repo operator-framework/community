@@ -73,9 +73,10 @@ To organize and steer the development of the [Operator SDK](https://github.com/o
 
 ### Meetings
 
-* Issue Triage Meeting: Mondays (weekly) at 11:00 Western Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
+* Community Meeting and Issue Triage Meeting: Mondays (weekly) at 11:00 Western Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
     * [Meeting Link][meeting-link]: Password: 77777
     * [Issue Query](https://github.com/operator-framework/operator-sdk/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
+    * [Agenda](https://docs.google.com/document/d/1ujWb-rSJ4JWeHLVxK0WS5ZuSJgeESG42MDeYjSl9Q6U/edit)
     * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXxkVh27ExScB_wEmhBLY7g).
 * Backlog Grooming Meeting: Wednesdays (every 3 weeks) at 11:00 Western Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=PT%20%28Western%20Time%29).
     * [Meeting Link][meeting-link]: Password: 77777
@@ -127,6 +128,7 @@ To organize and steer the development of [helm-operator-plugins](https://github.
 * Issue Triage and Community Meeting: Tuesdays (biweekly) at 11:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Eastern%20Time%29).
     * [Meeting Link][meeting-link]: Password: 77777
     * [Issue Query](https://github.com/operator-framework/helm-operator-plugins/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
+    * [Agenda](https://docs.google.com/document/d/112b0ZhSid8exnm72sMT7rDzBEkLlE5s74s0pcn44ssg/edit#)
 
 ### Organizers
 
@@ -148,9 +150,10 @@ To organize and steer the development of Ansible-based Operators and related pro
 
 ### Meetings
 
-* Community Meeting: Third Monday (monthly) at 12:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=12:00&tz=ET%20%28Eastern%20Time%29).
+* Community Meeting and Triage: Third Monday (monthly) at 12:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=12:00&tz=ET%20%28Eastern%20Time%29).
     * [Meeting Link][meeting-link]: Password: 77777
     * [Agenda](https://docs.google.com/document/d/1Bo68RhJkpr0Nk_JpkBdbkgmi3c2WtfdvFZ0jVSJzvXo/edit?usp=sharing)
+    * [Recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeWicUrCkNjH33zVc7S0QDBv)
 
 ### Organizers
 
@@ -161,6 +164,7 @@ To organize and steer the development of Ansible-based Operators and related pro
 ### Contact
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
-- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
+- [Ansible-k8s-operators Mailing list](https://groups.google.com/forum/#!forum/ansible-k8s-operators) 
+- [OF Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
 
 [meeting-link]: https://zoom.us/j/8415370125
