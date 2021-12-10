@@ -18,27 +18,6 @@ Framework process, charter, and coordination documents.
 Most Operator Framework community activity is organized into Working Groups;
 each may operate a little differently depending on their needs and workflow.
 
-## CI Working Group
-
-Improve continuous integration (CI) for operators created, installed, and managed by components of Operator Framework.
-
-### Meetings
-
-* Regular WG Meeting: Wednesdays (biweekly) at 14:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=14:00&tz=ET%20%28Eastern%20Time%29).
-    * [Meeting Link][meeting-link]: Password: 77777
-    * [Agenda](https://docs.google.com/document/d/14aUnEEIYmvUhnIvF_pl86-1BzJj9y6t1xY4ImIHtWXY/edit#heading=h.g1tg5lyjvb51)
-
-#### Organizers
-
-* Lance Galletti (**[@gallettilance](https://github.com/gallettilance)**), Red Hat
-* Nick Hale (**[@njhale](https://github.com/njhale)**), Red Hat
-* Shawn Hurley (**[@shawn-hurley](https://github.com/shawn-hurley)**), Red Hat
-
-#### Contact
-
-- Slack: [##kubernetes-operators](https://kubernetes.slack.com/messages/kubernetes-operators)
-- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework-wg-ci)
-
 ## Operator Lifecycle Manager Working Group
 
 To organize and steer the development of projects that enable teams to manage the lifecycle of operators. These projects include:
