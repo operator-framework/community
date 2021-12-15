@@ -56,7 +56,7 @@ their PRs. Members are expected to remain active contributors to the community.
       or the org they are sponsoring for.
       - An approver/reviewer in the [Operator Framework org] may sponsor someone for the [Operator Framework org]
       as long as it's a project they're involved with.
-- **[Open an issue][membership request] against the operator-framework/org repo**
+- **[Open an issue][membership request] against the operator-framework/community repo**
    - Ensure your sponsors are @mentioned on the issue
    - Complete every item on the checklist ([preview the current version of the template][membership template])
    - Make sure that the list of contributions included is representative of your work on the project.
@@ -209,7 +209,7 @@ The following apply to the subproject for which one would be an owner.
 
 [Operator Framework org]: https://github.com/operator-framework
 [operator-framework@googlegroups.com]: https://groups.google.com/forum/#!forum/operator-framework
-[membership request]: https://github.com/operator-framework/org/issues/new?template=membership.md&title=REQUEST%3A%20New%20membership%20for%20%3Cyour-GH-handle%3E
+[membership request]: https://github.com/operator-framework/community/issues/new?template=membership.md&title=REQUEST%3A%20New%20membership%20for%20%3Cyour-GH-handle%3E
 [membership template]: https://github.com/operator-framework/community/blob/master/.github/ISSUE_TEMPLATE/membership.md
 [OWNERS]: https://github.com/kubernetes/community/blob/master/contributors/guide/owners.md
 [sigs.yaml]: /sigs.yaml
