@@ -35,6 +35,8 @@ To organize and steer the development of projects that enable teams to manage th
     * [Agenda](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit)
     * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXDvBtPlaAvPTaknPR0Uwi-).
 
+**NOTE:** To obtain *edit* access to the agenda documents please join our [Google Group](https://groups.google.com/g/operator-framework-olm-dev) - ensure you are logged in to google docs with the same account you used to sign up to the Google Group.
+
 ### Organizers
 
 * Alexander Greene (**[@awgreene](https://github.com/awgreene)**), Red Hat
