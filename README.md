@@ -96,6 +96,7 @@ To organize and steer the development of
 ### Contact
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
+- Discord: [##java-operator-sdk](https://discord.com/invite/K4YEJ3Z5Mw)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
 
 ## Helm Operator Plugins Working Group
