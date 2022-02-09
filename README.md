@@ -9,9 +9,16 @@ Framework process, charter, and coordination documents.
   * Users: [#kubernetes-operators](https://kubernetes.slack.com/messages/kubernetes-operators)
   * SDK Development: [#operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
   * OLM Development: [#olm-dev](https://kubernetes.slack.com/messages/olm-dev)
-* [Operator Framework on Google Groups](https://groups.google.com/forum/#!forum/operator-framework)
+* [Operator Framework on Google Groups][of-mailing-list]
 * [Operator Lifecycle Manager Development on Google Groups](https://groups.google.com/forum/#!forum/operator-framework-olm-dev)
 * [Operator Framework Commons SIG](https://commons.openshift.org/sig/OpenshiftOperators.html)
+
+### Operator Framework Meetings
+
+* Outreach and Community Planning: Fridays (about 1/month) at 12:00 Eastern Time. [Convert to your timezone](https://dateful.com/time-zone-converter?t=12:00&tz=ET%20(Eastern%20Time))
+    * [Meeting Link][meeting-link]: Password: 77777
+    * [Agenda](https://docs.google.com/document/d/1dB6A1JchUUSQxtuVxRJTLDvF8jZN57p1lsq6oKCIPN4/edit)
+    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeVCRWuqOYwKiEd71-VmOpCN)
 
 ## Working Groups
 
@@ -72,7 +79,7 @@ To organize and steer the development of the [Operator SDK](https://github.com/o
 ### Contact
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
-- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework)
+- [Mailing list][of-mailing-list]
 
 ## Java Operator Working Group
 
@@ -97,7 +104,7 @@ To organize and steer the development of
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - Discord: [##java-operator-sdk](https://discord.com/invite/K4YEJ3Z5Mw)
-- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
+- [Mailing list][of-mailing-list] (Subscribe to access the agenda document.)
 
 ## Helm Operator Plugins Working Group
 
@@ -119,7 +126,7 @@ To organize and steer the development of [helm-operator-plugins](https://github.
 ### Contact
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
-- [Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
+- [Mailing list][of-mailing-list] (Subscribe to access the agenda document.)
 
 ## Ansible Working Group
 
@@ -145,6 +152,7 @@ To organize and steer the development of Ansible-based Operators and related pro
 
 - Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - [Ansible-k8s-operators Mailing list](https://groups.google.com/forum/#!forum/ansible-k8s-operators) 
-- [OF Mailing list](https://groups.google.com/forum/#!forum/operator-framework) (Subscribe to access the agenda document.)
+- [OF Mailing list][of-mailing-list](Subscribe to access the agenda document.)
 
 [meeting-link]: https://zoom.us/j/8415370125
+[of-mailing-list]: https://groups.google.com/forum/#!forum/operator-framework
