@@ -35,23 +35,16 @@ The Operator Framework community will work on developing best practices, fosteri
 ## Governance
 
 ### Operations
-The Operator Framework community is run and managed by the following chairs:
-* Diane Mueller
-* Evan Cordell
-* Joe Lanford
-* Shawn Hurley
-* Daniel Messer
-* Rob Szumski
-* Gerred Dillon
+The Operator Framework community is run and managed by the [community chairs][OWNERS_ALIASES].
 
-Note: The referenced names and chair positions will be edited in-place as chairs are added, removed, or replaced. See the roles of chairs section for more information.
+Note: The referenced names and chair positions will be edited in-place as chairs are added, removed, or replaced.
 
 A dedicated git repository will be the authoritative archive for membership list, code, documentation, and decisions made. The repository, along with this charter, will be hosted at github.com/operator-framework/community.
 
 The mailing list at groups.google.com/forum/#!forum/operator-framework will be used as a place to call for and publish group decisions, and to hold discussions in general.
 
 ### Operator Framework Community Membership
-All active members of the Operator Framework community are listed in the `OWNERS.md` file with their name.
+All active members of the Operator Framework community are listed in the [`OWNERS`][OWNERS_ALIASES].
 
 New members can apply for membership by creating an Issue or Pull Request on the repository on GitHub indicating their desire to join.
 
@@ -117,3 +110,5 @@ Chairs may be removed by petition to the Operator Framework Community through th
 Additional Chairs may be added so long as the existing number of Chairs is odd. These Chairs are added using a Call for Agreement. Extra Chairs enjoy the same rights, responsibilities, and obligations of a Chartered Chair. Upon vacancy of an Extra Chair, it may be filled by appointment by the remaining Chairs, or a majority vote of the Operator Framework Community until the term naturally expires.
 
 In the event that an even number of Chairs exist and vote situation arises, the Chairs will randomly select one chair to abstain. 
+
+[OWNERS_ALIASES]: https://github.com/operator-framework/community/blob/master/OWNERS_ALIASES
