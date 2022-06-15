@@ -12,15 +12,14 @@ aliases:
     - jberkhahn
     - kensipe
     - varshaprasad96
-## BEGIN CUSTOM CONTENT
   community-chairs:
-    - dmueller2001
-    - ecordell
+    - asmacdo
+    - awgreene 
+    - gallettilance
+    - jberkhahn
     - joelanford
-    - shawn-hurley
-    - dmesser
-    - robszumski
-    - gerred
+    - jmrodri
+    - tlwu2013
   community-maintainers:
     - dmueller2001
     - ecordell
@@ -29,4 +28,3 @@ aliases:
     - dmesser
     - robszumski
     - gerred
-## END CUSTOM CONTENT
