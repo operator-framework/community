@@ -33,10 +33,10 @@ To organize and steer the development of projects that enable teams to manage th
 
 ### Meetings
 
-* Issue Triage: Thursdays (biweekly) at 10:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=10:00&tz=ET%20%28Eastern%20Time%29).
+* Issue Triage: Thursdays (biweekly) at 15:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
     * [Meeting Link][meeting-link]: Password: 77777
     * [Agenda](https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit)
-    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXoywfA_VQdxkqP00-VBzEA).
+    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeUk5xNSiUCKuptB1WIDU5J2).
 * Regular WG: Thursdays (biweekly) at 15:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
     * [Meeting Link][meeting-link]: Password: 77777
     * [Agenda](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit)
@@ -50,7 +50,7 @@ To organize and steer the development of projects that enable teams to manage th
 
 ### Contact
 
-- Slack: [##olm-dev](https://kubernetes.slack.com/messages/olm-dev)
+- Slack: [#olm-dev](https://kubernetes.slack.com/messages/olm-dev)
 - [Mailing list](https://groups.google.com/forum/#!forum/operator-framework-olm-dev)
 
 ## Operator SDK Working Group
@@ -78,7 +78,7 @@ To organize and steer the development of the [Operator SDK](https://github.com/o
 
 ### Contact
 
-- Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
+- Slack: [#operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
 - [Mailing list][of-mailing-list]
 
 ## Java Operator Working Group
