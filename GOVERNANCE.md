@@ -44,7 +44,7 @@ A dedicated git repository will be the authoritative archive for membership list
 The mailing list at groups.google.com/forum/#!forum/operator-framework will be used as a place to call for and publish group decisions, and to hold discussions in general.
 
 ### Operator Framework Community Membership
-All active members of the Operator Framework community are listed in the [`OWNERS`][OWNERS_ALIASES].
+All active members of the Operator Framework community are listed in the [`OWNERS`][OWNERS_ALIASES] or in the OWNERS files in Operator Framework subprojects.
 
 New members can apply for membership by creating an Issue or Pull Request on the repository on GitHub indicating their desire to join.
 
