@@ -110,12 +110,13 @@ All active Approvers of the project, as defined in the Operator
 Framework Contributor Ladder, are members of the Maintainer Committee,
 which governs that project. The project's Approver Committee is
 responsible for the following project governance activities:
-    - Ensuring that the project creates and publishes regular releases;
-    - Holding regular, project-wide discussions on issues and planning for the project;
-    - Monthly review of project contributors for advancement on the Contributor Ladder;
-    - Making final decisions on project changes that involve controversial trade-offs;
-    - Responding to security compromise reports;
-    - Supporting the Code of Conduct within their project and referring violations to the Code of Conduct Committee.
+
+* Ensuring that the project creates and publishes regular releases;
+* Holding regular, project-wide discussions on issues and planning for the project;
+* Monthly review of project contributors for advancement on the Contributor Ladder;
+* Making final decisions on project changes that involve controversial trade-offs;
+* Responding to security compromise reports;
+* Supporting the Code of Conduct within their project and referring violations to the Code of Conduct Committee.
 
 Should a member of the Approver Committee cease being active in the
 project, violate the Code Of Conduct, or need to be removed for some
@@ -135,12 +136,12 @@ annually.
 #### Subproject Governance Ammendments
 
 If the project members wish to update or supplement governance
-documents, this will require a ⅔ majority of project Maintainers
-followed by a ⅔ majority approval from the Operator Framework steering
-committee.
-
-## Steering Committee
-
+documents, this will require a ⅔ majority  of project Maintainers
+followed by a ⅔ majority approval from th e Operator Framework steering
+committee.                                
+                                          
+## Steering Committee                     
+                                          
 The overall Operator Framework umbrella project is governed by a Steering
 Committee, which is selected as follows:
 
@@ -220,11 +221,12 @@ Documents according to the following process:
 1. Propose a change by opening an issue in the community, and if there
    seems to be general agreement, open a pull request to this document.
 2. The change should be announced via the mailing list along with an invitation for discussion on the Pull Request.
-3. A minimum of 7 days must pass between the announcement and the vote. A longer period can be requested with approval from the steering committee.
-4. Vote:
-  - All maintainers, approvers, subproject owners, and the Steering committee are eligible to vote.
-  - A quorum of 3 Steering Committee members is required
-  - A 2/3 majority of Chairs and a majority of the voting quorum must approve the proposal to pass.
+3. A minimum of 7 days must pass between the announcement and the vote. A longer period can be requested with approval from the steering committee. All maintainers, approvers, subproject owners, and the Steering committee are eligible to vote.
+
+For a vote to pass:
+* A quorum of 3 Steering Committee members is required.
+* A 2/3 majority of the Steering Committee quorum must approve.
+* A majority of the voting quorum must approve.
 
 ## Code of Conduct Committee
 
@@ -272,12 +274,12 @@ In some cases, promising but incomplete projects may be accepted as Experimental
 Subprojects. Such Experimental Subprojects will be considered part of
 Operator Framework, but will be marked as Experimental on the website and in code
 repositories, in order to inform users. Experimental Subproject Members are considered
-Members of Operator Framework, but the subproject is not entitled to a representative on the
-Steering Committee. Experimental Subprojects can apply for full status by opening an issue, which will be reviewed by the Steering Committee.
-
-## Removing Projects
-
-In some cases, projects will become inactive or unmaintainable, or wish to separate
+Members of Operator Framework, but the s ubproject is not entitled to a representative on the
+Steering Committee. Experimental Subproj ects can apply for full status by opening an issue, which will be reviewed by the Steering Committee.
+                                         
+## Removing Projects                     
+                                         
+In some cases, projects will become inac tive or unmaintainable, or wish to separate
 from Operator Framework. Any Steering Committee member may propose removal of a project on
 these grounds, and Steering can confirm this with a majority vote.
 
