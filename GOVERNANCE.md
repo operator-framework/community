@@ -1,114 +1,285 @@
-# Operator Framework Charter
+# Operator Framework Project Governance
 
-v1.0
+The Operator Framework umbrella project is composed as a federation of
+individual projects, some independent and some interdependent, each of
+which focuses on some aspect of the goals of umbrella project. Our
+governance reflects this federated structure.
 
-2020-01-17 
+- [Values](#values)
+- [Mission](#mission)
+  - [Scope](#scope)
+- [Individual Subpproject Governance](#individual-subproject-governance)
+  - [Default Subproject Governance](#default-subproject-governance)
+- [Steering Committee](#steering-committee)
+  - [Steering Committee Duties](#steering-committee-duties)
+  - [Steering Committee Elections](#steering-committee-elections)
+  - [Steering Committee Bootstrapping](#steering-committee-bootstrapping)
+- [Governance Ammendments](#governance-ammendments)
+- [Code of Conduct Committee](#code-of-conduct-committee)
+- [Adding New Subprojects](#adding-new-subprojects)
+- [Removing Projects](#removing-projects)
 
-## Introduction
-The charter describes the logistics of the Operator Framework community project.
+## Values
 
-The Operator Framework is an open-source project based on the [Apache Licence 2.0](https://www.apache.org/licenses/LICENSE-2.0) that provides tooling for software engineers and Kubernetes cluster owners to develop and run Kubernetes Operators at scale.
+The Operator Framework and its leadership embrace the following values:
 
-The Operator Framework community's purpose is to discuss, give guidance to, and enable collaboration on current development efforts for the Operator SDK, Operator Lifecycle Manager and related projects for packaging and testing in the Operator Framework umbrella. This will also include the discussion of shared community goals for the Operator Framework and beyond. Additionally, the Operator Framework community will produce supporting materials and best practices for end-users and will provide guidance and coordination for CNCF projects working within a SIG's scope.
+* Openness: Communication and decision-making happens in the open and is discoverable for future
+    reference. As much as possible, all discussions and work take place in public
+    forums and open repositories.
 
-The Operator Framework is currently [proposed for inclusion](https://github.com/cncf/toc/pull/303) in the Cloud Native Computing Foundation (CNCF). The Operator Framework is a community sponsored by Red Hat.
+* Fairness: All stakeholders have the opportunity to provide feedback and submit
+    contributions, which will be considered on their merits.
+
+* Community over Product or Company: Sustaining and growing our community takes
+    priority over shipping code or sponsors' organizational goals. Each
+    contributor participates in the project as an individual.
+
+* Inclusivity: We innovate through different perspectives and skill sets, which
+    can only be accomplished in a welcoming and respectful environment.
+
+* Participation: Responsibilities within the project are earned through
+    participation, and there is a clear path up the contributor ladder into leadership
+    positions.
 
 ## Mission
-The mission of the Operator Framework community is:
-* To collaborate on areas related to developing, packaging, deploying and managing the lifecycle Kubernetes Operators
-* To develop informational resources like guides, tutorials, and white papers to give the community an understanding of best practices, trade-offs, and value adds as it relates to developing, packaging, deploying and managing the lifecycle of Kubernetes Operators
-* To identify suitable projects and gaps in the ecosystem for future collaboration and coordination with those projects.
 
-### Areas considered in Scope
-The Operator Framework community focuses on the following developer-related topics of creating Kubernetes Operators:
+The mission of the Operator Framework community is:
+* To collaborate on areas related to developing, packaging, deploying
+    and managing the lifecycle Kubernetes Operators
+
+* To develop informational resources that give the community an
+    understanding of best practices, trade-offs, and value adds as it
+    relates to developing, packaging, deploying and managing the
+    lifecycle of Kubernetes Operators
+
+* To identify suitable projects and gaps in the ecosystem for future
+    collaboration and coordination with those projects.
+
+### Scope
+
+The Operator Framework community focuses on the following
+developer-related topics of creating Kubernetes Operators:
 * Code scaffolding to create Kubernetes Operators
+* Libraries supporting common needs of Operator authors
 * Packaging of Kubernetes Operators
 * Testing of Kubernetes Operators
 
-The Operator Framework community focuses on the following admin-related topics of running Kubernetes Operators on a Kubernetes cluster:
+The Operator Framework community focuses on the following admin-related
+topics of running Kubernetes Operators on a Kubernetes cluster:
 * Maintaining catalogs of Operators
 * Discovering and installing Operators from those catalogs
-* Managing the lifecycle of continuous udpates and eventual removal of Operators
+* Managing the lifecycle of continuous updates and eventual removal of Operators
 
-The Operator Framework community will work on developing best practices, fostering collaboration between related projects, and working on improving tool interoperability. Additionally, we will propose new initiatives and projects when capability gaps in the current ecosystem are defined.
+The Operator Framework community will work on developing best practices,
+fostering collaboration, and working on improving tool interoperability.
 
-## Governance
+## Individual Subproject Governance
 
-### Operations
-The Operator Framework community is run and managed by the [community chairs][OWNERS_ALIASES].
+All active Approvers of each subproject, as defined in the Contributor
+Ladder, are members of that project's Approvers Committee, which governs
+that project. The subproject's Approvers Committee is responsible for
+the following project governance activities:
 
-Note: The referenced names and chair positions will be edited in-place as chairs are added, removed, or replaced.
+* Ensuring that the subproject creates and publishes regular releases;
+* Holding regular and open subproject-wide discussions on feature planning and issues;
+* Regular review of project contributors for advancement on the Contributor Ladder;
+* Following subproject governance and ensuring that the subproject
+    functions according to the Operator Framework values.
+* Making final decisions on subproject changes that involve controversial trade-offs;
+* Responding to security compromise reports;
+* Supporting the Code of Conduct within their subproject and referring violations
+  to the Code of Conduct Committee.
 
-A dedicated git repository will be the authoritative archive for membership list, code, documentation, and decisions made. The repository, along with this charter, will be hosted at github.com/operator-framework/community.
+Additionally, the project's Approvers Committee will select, by majority
+vote, one representative to the Steering Committee. This representative
+need not be a member of the subproject's Approvers Committee, and will
+be replaced or renewed by the committee annually.
 
-The mailing list at groups.google.com/forum/#!forum/operator-framework will be used as a place to call for and publish group decisions, and to hold discussions in general.
+Should a member of the Approvers Committee cease being active in the subproject,
+violate the Code Of Conduct, or need to be removed for some other reason, they
+may be removed by a 2/3 majority vote of the other Committee members, or a
+majority vote of the Steering Committee.
 
-### Operator Framework Community Membership
-All active members of the Operator Framework community are listed in the [`OWNERS`][OWNERS_ALIASES] or in the OWNERS files in Operator Framework subprojects.
+### Default Subproject Governance
 
-New members can apply for membership by creating an Issue or Pull Request on the repository on GitHub indicating their desire to join.
+Subprojects without governing documents default to:
 
-Membership can be surrendered by creating an Issue stating this desire, or by creating a Pull Request to remove the own name from the members list.
+#### Subproject Approvers Committee Responsibilities
 
-### Decision Process
-This group will seek consensus decisions. After public discussion and consideration of different opinions, the Chair and/or Co-Chair will record a decision and summarize any objections.
+All active Approvers of the project, as defined in the Operator
+Framework Contributor Ladder, are members of the Maintainer Committee,
+which governs that project. The project's Approver Committee is
+responsible for the following project governance activities:
+    - Ensuring that the project creates and publishes regular releases;
+    - Holding regular, project-wide discussions on issues and planning for the project;
+    - Monthly review of project contributors for advancement on the Contributor Ladder;
+    - Making final decisions on project changes that involve controversial trade-offs;
+    - Responding to security compromise reports;
+    - Supporting the Code of Conduct within their project and referring violations to the Code of Conduct Committee.
 
-All community members who have joined the GitHub group at least 21 days prior to the vote are eligible to vote. This is to prevent people from rallying outside supporters for their desired outcome.
+Should a member of the Approver Committee cease being active in the
+project, violate the Code Of Conduct, or need to be removed for some
+other reason, they may be removed by a 2/3 majority vote of the other
+Committee members, or a vote of the Steering Committee.
 
-When the group comes to a decision in a meeting, the decision is tentative. Any group participant may object to a decision reached at a meeting within 7 days of publication of the decision on the GitHub Issue and/or mailing list. That decision must then be confirmed on the GitHub Issue via a Call for Agreement.
 
-The Call for Agreement, when a decision is required, will be posted as a GitHub Issue or Pull Request and must be announced on the mailing list. It is an instrument to reach a time-bounded lazy consensus approval and requires a voting period of no less than 7 days to be defined (including a specific date and time in UTC).
+#### Subproject Steering Committee Representative
 
-Each Call for Agreement will be considered independently, except for elections of Chairs.
+Additionally, the Approver Committee will select, by an election
+conducted by the Operator Framework Election officials, one
+representative of the project to the Operator Framework Steering
+Committee. This representative need not be a member of the project's
+Maintainer Committee, and will be replaced or renewed by the Committee
+annually.
 
-The Chairs will submit all Calls for Agreement that are not vague, unprofessional, off-topic, or lacking sufficient detail to determine what is being agreed.
+#### Subproject Governance Ammendments
 
-A Call for Agreement may require quorum of Chairs under the circumstances outlined in the Charter and Governing Documents section.
+If the project members wish to update or supplement governance
+documents, this will require a ⅔ majority of project Maintainers
+followed by a ⅔ majority approval from the Operator Framework steering
+committee.
 
-A Call for Agreement is mandatory when:
-* A Chair determines that the topic requires a Call for Agreement.
-* When petitioned by members of the Operator Framework Community and submitted to the Chairs to call a vote unless rejected for cause.
-* Technical decisions that add, remove, or change dependencies and requirements.
-* Revoke a previous decision made by the Call for Agreement process.
+## Steering Committee
 
-Once the Call for Agreement voting period has elapsed, all votes are counted, with at least a 51% majority of votes needed for consensus. A Chair will then declare the agreement “accepted” or “declined”, ending the Call for Agreement.
+The overall Operator Framework umbrella project is governed by a Steering
+Committee, which is selected as follows:
 
-Once rejected, a Call for Agreement must be revised before re-submission for a subsequent vote. All rejected Calls for Agreement will be reported to the Operator Framework Community as rejected.
+* One Maintainer representative from each member subproject
+* `7 - number_of_subprojects` General "Community Representatives", with a minimum of 3 or 4, whichever will result in an odd number of committee members.
 
-### Charter and Governing Documents
+### Steering Committee Duties
 
-The Operator Framework Community may, from time to time, adopt or amend its Governing Documents and Charter, using a modified Call for Agreement process:
-* A quorum of at least 51% of active Operator Framework Community Members must vote.
-* A quorum of 3 Chairs is needed
-* Two-thirds of the voting quorum must approve the proposal.
-* A majority of Chairs must approve the proposal.
-* A public notice period of no less than 14 days from the Call for Agreement proposing the change must elapse before voting begins.
-* Any Call for Agreement that follows this process is considered a Governing Document. 
+The Steering Committee is responsible for the following tasks, any of
+which may be delegated to a person or group selected by the committee:
 
-For initial approval of this Charter via Call for Agreement all members are eligible to vote, even those that have been a member for less than 21 days. This Charter will be approved if there is a majority of positive votes.
+* Reviewing and deciding on new projects to add to Operator Framework
+* Arbitrating inter-project disagreements
+* Selecting the Code of Conduct Committee and ratifying CoC judgements
+* Removing projects which have become inactive
+* Acting on escalated security or code quality issues
+* Resolving issues that individual projects are unable to resolve
+* Administering project infrastructure, intellectual property, and resources
+* Determining overall direction for advocacy and marketing
+* Issuing statements on behalf of Operator Framework and its subprojects
+* Reviewing and approving Contributor Ladder advancement for participants who
+  work on the overall umbrella project
 
-## Organizational Roles
+In performance of these duties, the Steering Committee will hold a
+monthly meeting that is open to all contributors. The Committee may hold
+additional, closed meetings in order to discuss non-public issues such
+as security exploits, CoC enforcement, and legal questions.
 
-### Role of Chairs
+Steering Committee members are expected to advocate for all of Operator
+Framework, not just certain projects or corporate sponsors, comply with
+and support the Code of Conduct, and be professional and compassionate
+in all of their dealings with project participants.
 
-The primary role of Chairs is to run operations and the governance of the group. The Chairs are responsible for:
-* Setting the agenda for meetings.
-* Extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time.
-* Scheduling discussing of proposals that have been submitted.
-* Asking for new proposals to be made to address an identified need.
-* Oversee disciplinary action for members. The Chairs have the authority to declare a member inactive and expel members for cause.
-* Chairs will serve for one-year revolving terms and will be approved using the [Condorcet Method](https://en.wikipedia.org/wiki/Condorcet_method). Upon the expiration of a Chair’s term, it will continue for another year, unless challenged.
+### Steering Committee Elections
 
-The terms for founding Chairs start on the approval of this charter.
+Once per year, the Steering Committee will select three Election
+Officers to run the annual election and set the dates for the election.
+Election Officers should be project Members in good standing, not
+running for election themselves, and represent more than one project
+employer. These officers will update the list of eligible Members according to
+project records, send out announcements, and conduct the election.
 
-When no candidate has submitted their name for consideration, the current Chairs may appoint an acting Chair until a candidate comes forward.
+The election itself will last for at least one week, and is conducted as
+a preference election online, using the Condorcet method. The Election
+Officers will announce the selected candidates at the next regular
+community meeting.
 
-Chairs must be active members. Any inactivity, inability to filfill the role, or ineligibility results in immediate removal.
+#### Steering Committee Election Procedure 
 
-Chairs may be removed by petition to the Operator Framework Community through the Call for Agreement process outlined above.
+1. Nominations for Operator Framework Representatives (Subproject Rep
+   and Community Rep) will be collected for at least 14 days. Interested
+   individuals should self-nominate, and they may be considered for
+   Subproject Representative and Community Representative.  
+2. For each Subproject, one Subproject Representative is chosen by the
+   Subproject's Approvers. Each Subproject vote will be conducted by the
+   OF Election Officials and calculated by the Condorcet Method.
+3. Following the announcement of the Subproject results, the
+   Community Representatives are chosen by all Members of the Operator
+   Framework. The vote will be conducted by the OF Election Officials
+   and calculated by the Condorcet Method.
 
-Additional Chairs may be added so long as the existing number of Chairs is odd. These Chairs are added using a Call for Agreement. Extra Chairs enjoy the same rights, responsibilities, and obligations of a Chartered Chair. Upon vacancy of an Extra Chair, it may be filled by appointment by the remaining Chairs, or a majority vote of the Operator Framework Community until the term naturally expires.
+If individuals are nominated to be Subproject Representative, the Subproject elections will be calculated in a random order. No individual can
+hold more than one seat on the Steering Committee.
 
-In the event that an even number of Chairs exist and vote situation arises, the Chairs will randomly select one chair to abstain. 
+### Steering Committee Bootstrapping
 
-[OWNERS_ALIASES]: https://github.com/operator-framework/community/blob/master/OWNERS_ALIASES
+Upon ratification of this document, the 7 elected Chairs of the Operator
+Framework will become the Steering Committee for a period of one year,
+afterwards Steering Committee elections will proceed as outlined in this
+document.
+
+## Governance Amendments
+
+The Operator Framework Community may adopt or amend its Governing
+Documents according to the following process:
+
+1. Propose a change by opening an issue in the community, and if there
+   seems to be general agreement, open a pull request to this document.
+2. The change should be announced via the mailing list along with an invitation for discussion on the Pull Request.
+3. A minimum of 7 days must pass between the announcement and the vote. A longer period can be requested with approval from the steering committee.
+4. Vote:
+  - All maintainers, approvers, subproject owners, and the Steering committee are eligible to vote.
+  - A quorum of 3 Steering Committee members is required
+  - A 2/3 majority of Chairs and a majority of the voting quorum must approve the proposal to pass.
+
+## Code of Conduct Committee
+
+In order to review and enforce the Code of Conduct, the Steering
+Committee selects 3 people to be on the Code of Conduct Committee.
+These individuals will be chosen based on their community management and
+code of conduct experience, with diverse representation across the
+committee, including employer, gender, race, background, and region of
+the world. To avoid fatigue, the Steering Committee will replace at
+least 2 members of the CoC Committee each year. Members of
+the committee do not need to be members of Operator Framework if they
+have sufficient other expertise.
+
+The CoC Committee will receive reports of conduct violations confidentially,
+and will discuss them in closed meetings. If a report is determined to be a
+violation, they will recommend action on it appropriate to the scale, nature,
+and context of the violation, from requiring an apology, up to expulsion of an
+individual from the project. In the event that a contributor is to be demoted
+or expelled, the CoC Committee will forward this recommendation to the Steering
+Committee who will ratify it in a closed meeting. Should a member of the
+Steering Committee be the offender or the reporter, this recommendation will
+instead be forwarded to the CNCF staff for final arbitration.
+
+## Adding New Subprojects
+
+During the monthly Steering meeting, any project member may recommend projects
+to become part of Operator Framework. These projects should have the following
+characteristics:
+
+* Have a mission that aligns with the Operator Framework goals
+* Are appropriately licensed
+* Governance structure is fully documented in a GOVERNANCE file
+* Governance rules are modifiable by project leaders through a defined process.
+* Embrace the Operator Framework and CNCF values
+* Are under active development
+* Consist of high quality code and designs
+
+Before submitting an application to the Steering Committee, the applying project
+must hold an internal vote of all major contributors to join
+Operator Framework. The Steering Committee will then review the
+application. If it is accepted, the Committee
+will assign one person to assist the subproject in their integration.
+
+In some cases, promising but incomplete projects may be accepted as Experimental
+Subprojects. Such Experimental Subprojects will be considered part of
+Operator Framework, but will be marked as Experimental on the website and in code
+repositories, in order to inform users. Experimental Subproject Members are considered
+Members of Operator Framework, but the subproject is not entitled to a representative on the
+Steering Committee. Experimental Subprojects can apply for full status by opening an issue, which will be reviewed by the Steering Committee.
+
+## Removing Projects
+
+In some cases, projects will become inactive or unmaintainable, or wish to separate
+from Operator Framework. Any Steering Committee member may propose removal of a project on
+these grounds, and Steering can confirm this with a majority vote.
+
+Projects which still have contributors will then be moved to a repository in their
+own namespace. Projects which have ceased all activity are moved to an archived namespace.
