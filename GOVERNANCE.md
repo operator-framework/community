@@ -45,7 +45,7 @@ The Operator Framework and its leadership embrace the following values:
 
 The mission of the Operator Framework community is:
 * To collaborate on areas related to developing, packaging, deploying
-    and managing the lifecycle Kubernetes Operators
+    and managing the lifecycle of Kubernetes Operators
 
 * To develop informational resources that give the community an
     understanding of best practices, trade-offs, and value adds as it
