@@ -109,6 +109,28 @@ Privileges:
  - Eligible to vote in maintainer decision-making meetings
  - Write access to the relevant repositories
 
+## Steering Committee Member
+
+Defined by: listed as steering committee in owners-aliases in operator-framework/community
+
+Description: Steering committee members are the chairs of Operator Framework as a whole.
+They are elected according to the procedures outlined in [the Operator Framework governance documentation.](https://github.com/operator-framework/community/blob/master/GOVERNANCE.md)
+Also see those docs for further description of the role of the Steering Committee as a whole.
+
+Responsibilities include:
+- Administering and representing the Operator Framework project as a whole
+- Adjudicating disagreements between sub-projects
+- Ultimate responsibility for project concerns such as security, code quality, etc.
+- Representing the Operator Framework to the CNCF
+
+Requirements:
+- Operator Framework member
+- Elected per the processes outlined in the governance documentation of Operator Framework.
+
+Privileges:
+- Admin access to repositories and other Operator Framework assets
+- CNCF Maintainer status for Operator Framework
+
 ## Inactive Members
 
 It is important for contributors to be and stay active to set an example
