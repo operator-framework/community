@@ -106,28 +106,6 @@ To organize and steer the development of
 - Discord: [##java-operator-sdk](https://discord.com/invite/K4YEJ3Z5Mw)
 - [Mailing list][of-mailing-list] (Subscribe to access the agenda document.)
 
-## Helm Operator Plugins Working Group
-
-To organize and steer the development of [helm-operator-plugins](https://github.com/operator-framework/helm-operator-plugins) and related projects.
-
-### Meetings
-
-* Issue Triage and Community Meeting: Tuesdays (biweekly) at 11:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Eastern%20Time%29).
-    * [Meeting Link][meeting-link]: Password: 77777
-    * [Issue Query](https://github.com/operator-framework/helm-operator-plugins/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone+sort%3Acreated-asc)
-    * [Agenda](https://docs.google.com/document/d/112b0ZhSid8exnm72sMT7rDzBEkLlE5s74s0pcn44ssg/edit#)
-
-### Organizers
-
-* Fabian von Feilitzsch (**[@fabianvf](https://github.com/fabianvf)**), Red Hat
-* Simon Bäumer (**[@SimonBaeumer](https://github.com/SimonBaeumer)**), Red Hat
-* Varsha Prasad Narsing (**[@varshaprasad96](https://github.com/varshaprasad96)**), Red Hat
-
-### Contact
-
-- Slack: [##operator-sdk-dev](https://kubernetes.slack.com/messages/operator-sdk-dev)
-- [Mailing list][of-mailing-list] (Subscribe to access the agenda document.)
-
 ## Ansible Working Group
 
 To organize and steer the development of Ansible-based Operators and related projects:
