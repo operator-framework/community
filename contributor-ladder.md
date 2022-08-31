@@ -66,7 +66,6 @@ Requirements:
    - Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
  - May either self-nominate, be nominated by an approver in this subproject, or be nominated by a robot
 
-
 Privileges:
  - Granted "read access" to specific area of operator-framework GitHub organization owned by the relevant working group
  - May mark PR’s in specific area as “/lgtm” for PR merging purposes
@@ -155,7 +154,7 @@ repeated patterns of inactivity, extended period of inactivity, a period
 of failing to meet the requirements of your role, and/or a violation of
 the Code of Conduct. This process is important because it protects the
 community and its deliverables while also opens up opportunities for new
-contributors to step in.  Involuntary removal or demotion is handled
+contributors to step in. Involuntary removal or demotion is handled
 through a vote by a majority of the current Approvers of the relevant
 working group.
 

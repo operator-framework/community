@@ -2,7 +2,7 @@
 
 The Operator Framework umbrella project is composed as a federation of
 individual projects, some independent and some interdependent, each of
-which focuses on some aspect of the goals of umbrella project. Our
+which focuses on some aspect of the goals of the umbrella project. Our
 governance reflects this federated structure.
 
 - [Values](#values)
@@ -123,25 +123,24 @@ project, violate the Code Of Conduct, or need to be removed for some
 other reason, they may be removed by a 2/3 majority vote of the other
 Committee members, or a vote of the Steering Committee.
 
-
 #### Subproject Steering Committee Representative
 
 Additionally, the Approver Committee will select, by an election
 conducted by the Operator Framework Election officials, one
 representative of the project to the Operator Framework Steering
 Committee. This representative need not be a member of the project's
-Maintainer Committee, and will be replaced or renewed by the Committee
+Approver Committee, and will be replaced or renewed by the Committee
 annually.
 
 #### Subproject Governance Ammendments
 
-If the project members wish to update or supplement governance
-documents, this will require a ⅔ majority  of project Maintainers
-followed by a ⅔ majority approval from th e Operator Framework steering
-committee.                                
-                                          
-## Steering Committee                     
-                                          
+If a subproject wishes to update or supplement governance
+documents, this will require a 2/3 majority of project Approvers
+followed by a 2/3 majority approval from the Operator Framework steering
+committee.
+
+## Steering Committee
+
 The overall Operator Framework umbrella project is governed by a Steering
 Committee, which is selected as follows:
 
@@ -164,6 +163,7 @@ which may be delegated to a person or group selected by the committee:
 * Issuing statements on behalf of Operator Framework and its subprojects
 * Reviewing and approving Contributor Ladder advancement for participants who
   work on the overall umbrella project
+* Facilitate outreach and project participation in CNCF events
 
 In performance of these duties, the Steering Committee will hold a
 monthly meeting that is open to all contributors. The Committee may hold
@@ -189,12 +189,12 @@ a preference election online, using the Condorcet method. The Election
 Officers will announce the selected candidates at the next regular
 community meeting.
 
-#### Steering Committee Election Procedure 
+#### Steering Committee Election Procedure
 
 1. Nominations for Operator Framework Representatives (Subproject Rep
    and Community Rep) will be collected for at least 14 days. Interested
    individuals should self-nominate, and they may be considered for
-   Subproject Representative and Community Representative.  
+   Subproject Representative and Community Representative.
 2. For each Subproject, one Subproject Representative is chosen by the
    Subproject's Approvers. Each Subproject vote will be conducted by the
    OF Election Officials and calculated by the Condorcet Method.
@@ -221,12 +221,13 @@ Documents according to the following process:
 1. Propose a change by opening an issue in the community, and if there
    seems to be general agreement, open a pull request to this document.
 2. The change should be announced via the mailing list along with an invitation for discussion on the Pull Request.
-3. A minimum of 7 days must pass between the announcement and the vote. A longer period can be requested with approval from the steering committee. All maintainers, approvers, subproject owners, and the Steering committee are eligible to vote.
+3. A minimum of 7 days must pass between the announcement and the vote,
+   and the vote must remain open for a minimum of 7 days. The Steering
+   Committee may extend both periods.
 
-For a vote to pass:
+For a vote to pass, all of the following must occur:
 * A quorum of 3 Steering Committee members is required.
 * A 2/3 majority of the Steering Committee quorum must approve.
-* A majority of the voting quorum must approve.
 
 ## Code of Conduct Committee
 
@@ -263,25 +264,32 @@ characteristics:
 * Embrace the Operator Framework and CNCF values
 * Are under active development
 * Consist of high quality code and designs
+* Have at least 3 Approvers (Experimental Subprojects must have at least 1)
 
 Before submitting an application to the Steering Committee, the applying project
 must hold an internal vote of all major contributors to join
-Operator Framework. The Steering Committee will then review the
-application. If it is accepted, the Committee
-will assign one person to assist the subproject in their integration.
+Operator Framework. The Steering Committee will then review and vote on the
+application. A quorum of 3 Steering Committee members must vote, and
+accepted Subprojects require 2/3 of the quorum. Experimental subprojects
+only require 1/2 of the quorum to approve. If the application is
+accepted, the Committee will assign one person to assist the subproject
+in their integration.
 
-In some cases, promising but incomplete projects may be accepted as Experimental
-Subprojects. Such Experimental Subprojects will be considered part of
-Operator Framework, but will be marked as Experimental on the website and in code
-repositories, in order to inform users. Experimental Subproject Members are considered
-Members of Operator Framework, but the s ubproject is not entitled to a representative on the
-Steering Committee. Experimental Subproj ects can apply for full status by opening an issue, which will be reviewed by the Steering Committee.
-                                         
-## Removing Projects                     
-                                         
-In some cases, projects will become inac tive or unmaintainable, or wish to separate
+In some cases, promising but incomplete projects may be accepted as
+Experimental Subprojects. Such Experimental Subprojects will be
+considered part of Operator Framework, but will be marked as
+Experimental on the website and in code repositories, in order to inform
+users. Experimental Subproject Members are considered Members of
+Operator Framework, but the subproject is not entitled to a
+representative on the Steering Committee. Experimental Subprojects can
+apply for full status by opening an issue, which will be reviewed by the
+Steering Committee.
+
+## Removing Projects
+
+In some cases, projects will become inactive or unmaintainable, or wish to separate
 from Operator Framework. Any Steering Committee member may propose removal of a project on
-these grounds, and Steering can confirm this with a majority vote.
+these grounds, and Steering can confirm this with a 2/3 vote.
 
 Projects which still have contributors will then be moved to a repository in their
 own namespace. Projects which have ceased all activity are moved to an archived namespace.
