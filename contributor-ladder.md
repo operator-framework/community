@@ -30,7 +30,6 @@ Privileges:
  - May be assigned Issues and Reviews
  - May give commands to CI/CD automation
  - Entitled to vote in the appropriate elections such as for at-large CNCF chair, etc.
- - Can recommend other contributors to become Members
 
 The process to become an Organization Member is as follows:
 
@@ -50,7 +49,7 @@ documentation, test, or other project areas. They are collectively
 responsible, with other Reviewers, for reviewing all changes to those
 areas and indicating whether those changes are ready to merge. They have
 a track record of contribution and review in the project. **Reviewers are
-associated with a specific working group, such as Operator SDK or OLM.**
+associated with a specific subproject, such as Operator SDK or OLM.**
 
 Responsibilities include:
  - Expected to be responsive to review requests as per [community expectations]
@@ -60,14 +59,14 @@ Responsibilities include:
 Requirements:
  - Has demonstrated an in-depth knowledge of the specific area
  - Commits to being responsible for that specific area
- - Sponsored by 2 approvers from the same working group
+ - Sponsored by 2 approvers from the same subproject
    - With no objections from other approvers
    - Done through PR to update the OWNERS file in operator-framework/community
    - Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
  - May either self-nominate, be nominated by an approver in this subproject, or be nominated by a robot
 
 Privileges:
- - Granted "read access" to specific area of operator-framework GitHub organization owned by the relevant working group
+ - Granted "read access" to specific area of operator-framework GitHub organization owned by the relevant subproject
  - May mark PR’s in specific area as “/lgtm” for PR merging purposes
 
 ## Approver
@@ -82,7 +81,7 @@ adhering to API and flag conventions, subtle performance and correctness
 issues, interactions with other parts of the system, etc. Approvers are
 expected to participate in making decisions about the strategy and
 priorities of the project. **Approvers are associated with a specific
-working group, such as Operator SDK or OLM.**
+subproject, such as Operator SDK or OLM.**
 
 Responsibilities include:
  - Approver status may be a precondition to accepting large code contributions
@@ -96,7 +95,7 @@ Responsibilities include:
 Requirements:
  - Demonstrates a broad knowledge of the project across multiple areas
  - Is able to exercise judgment for the good of the project, independent of their employer, friends, or team
- - Sponsored by 2 approvers from the same working group
+ - Sponsored by 2 approvers from the same subproject
    - With no objections from other approvers
    - Done through PR to update the OWNERS file in operator-framework/community
    - Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
@@ -123,7 +122,7 @@ Responsibilities include:
 - Representing the Operator Framework to the CNCF
 
 Requirements:
-- Operator Framework member
+- Must be an [Operator Framework Member](#Member)
 - Elected per the processes outlined in the governance documentation of Operator Framework.
 
 Privileges:
@@ -156,7 +155,7 @@ the Code of Conduct. This process is important because it protects the
 community and its deliverables while also opens up opportunities for new
 contributors to step in. Involuntary removal or demotion is handled
 through a vote by a majority of the current Approvers of the relevant
-working group.
+subproject.
 
 ## Stepping Down/Emeritus Process
 
