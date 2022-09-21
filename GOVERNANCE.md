@@ -9,7 +9,6 @@ governance reflects this federated structure.
 - [Mission](#mission)
   - [Scope](#scope)
 - [Individual Subpproject Governance](#individual-subproject-governance)
-  - [Default Subproject Governance](#default-subproject-governance)
 - [Steering Committee](#steering-committee)
   - [Steering Committee Duties](#steering-committee-duties)
   - [Steering Committee Elections](#steering-committee-elections)
@@ -70,8 +69,8 @@ topics of running Kubernetes Operators on a Kubernetes cluster:
 * Discovering and installing Operators from those catalogs
 * Managing the lifecycle of continuous updates and eventual removal of Operators
 
-The Operator Framework community will work on developing best practices,
-fostering collaboration, and working on improving tool interoperability.
+The Operator Framework community develops best practices, fosters
+collaboration, and improves tool interoperability.
 
 ## Individual Subproject Governance
 
@@ -89,39 +88,15 @@ the following project governance activities:
 * Responding to security compromise reports;
 * Supporting the Code of Conduct within their subproject and referring violations
   to the Code of Conduct Committee.
-
-Additionally, the project's Approvers Committee will select, by majority
-vote, one representative to the Steering Committee. This representative
-need not be a member of the subproject's Approvers Committee, and will
-be replaced or renewed by the committee annually.
-
 Should a member of the Approvers Committee cease being active in the subproject,
 violate the Code Of Conduct, or need to be removed for some other reason, they
 may be removed by a 2/3 majority vote of the other Committee members, or a
 majority vote of the Steering Committee.
 
-### Default Subproject Governance
-
-Subprojects without governing documents default to:
-
-#### Subproject Approvers Committee Responsibilities
-
-All active Approvers of the project, as defined in the Operator
-Framework Contributor Ladder, are members of the Maintainer Committee,
-which governs that project. The project's Approver Committee is
-responsible for the following project governance activities:
-
-* Ensuring that the project creates and publishes regular releases;
-* Holding regular, project-wide discussions on issues and planning for the project;
-* Monthly review of project contributors for advancement on the Contributor Ladder;
-* Making final decisions on project changes that involve controversial trade-offs;
-* Responding to security compromise reports;
-* Supporting the Code of Conduct within their project and referring violations to the Code of Conduct Committee.
-
 Should a member of the Approver Committee cease being active in the
 project, violate the Code Of Conduct, or need to be removed for some
 other reason, they may be removed by a 2/3 majority vote of the other
-Committee members, or a vote of the Steering Committee.
+Committee members, or a 2/3 vote of the Steering Committee.
 
 #### Subproject Steering Committee Representative
 
@@ -130,14 +105,15 @@ conducted by the Operator Framework Election officials, one
 representative of the project to the Operator Framework Steering
 Committee. This representative need not be a member of the project's
 Approver Committee, and will be replaced or renewed by the Committee
-annually.
+annually. If only one Subproject representative is nominated, they are
+automatically appointed without an election.
 
 #### Subproject Governance Ammendments
 
-If a subproject wishes to update or supplement governance
-documents, this will require a 2/3 majority of project Approvers
-followed by a 2/3 majority approval from the Operator Framework steering
-committee.
+If a subproject wishes to update or supplement governance documents,
+this will require a 2/3 majority approval from the Operator Framework
+steering committee. If a subproject has additional Governance, it must
+be in a `GOVERNANCE.md` at the root of the repository.
 
 ## Steering Committee
 
@@ -145,7 +121,10 @@ The overall Operator Framework umbrella project is governed by a Steering
 Committee, which is selected as follows:
 
 * One Maintainer representative from each member subproject
-* `7 - number_of_subprojects` General "Community Representatives", with a minimum of 3 or 4, whichever will result in an odd number of committee members.
+* At least 3 community representatives
+* The Steering committee should contain at least 7 members, if there are
+    fewer than 4 subprojects, the remaining seats will be filled by community
+    representatives.
 
 ### Steering Committee Duties
 
@@ -203,20 +182,22 @@ community meeting.
    Framework. The vote will be conducted by the OF Election Officials
    and calculated by the Condorcet Method.
 
-If individuals are nominated to be Subproject Representative, the Subproject elections will be calculated in a random order. No individual can
-hold more than one seat on the Steering Committee.
+If individuals are nominated to be Subproject Representative, the
+Subproject elections will be calculated in a random order. No individual
+can hold more than one seat on the Steering Committee.
 
 ### Steering Committee Bootstrapping
 
 Upon ratification of this document, the 7 elected Chairs of the Operator
 Framework will become the Steering Committee for a period of one year,
 afterwards Steering Committee elections will proceed as outlined in this
-document.
+document. 
 
 ## Governance Amendments
 
-The Operator Framework Community may adopt or amend its Governing
-Documents according to the following process:
+The Operator Framework Community may adopt or amend its Governance
+Docuements (`GOVERNANCE.md` and `contributor-ladder.md`) according to
+the following process:
 
 1. Propose a change by opening an issue in the community, and if there
    seems to be general agreement, open a pull request to this document.
@@ -225,9 +206,7 @@ Documents according to the following process:
    and the vote must remain open for a minimum of 7 days. The Steering
    Committee may extend both periods.
 
-For a vote to pass, all of the following must occur:
-* A quorum of 3 Steering Committee members is required.
-* A 2/3 majority of the Steering Committee quorum must approve.
+For a vote to pass, 2/3 majority of the Steering Committee must approve.
 
 ## Code of Conduct Committee
 
@@ -266,15 +245,6 @@ characteristics:
 * Consist of high quality code and designs
 * Have at least 3 Approvers (Experimental Subprojects must have at least 1)
 
-Before submitting an application to the Steering Committee, the applying project
-must hold an internal vote of all major contributors to join
-Operator Framework. The Steering Committee will then review and vote on the
-application. A quorum of 3 Steering Committee members must vote, and
-accepted Subprojects require 2/3 of the quorum. Experimental subprojects
-only require 1/2 of the quorum to approve. If the application is
-accepted, the Committee will assign one person to assist the subproject
-in their integration.
-
 In some cases, promising but incomplete projects may be accepted as
 Experimental Subprojects. Such Experimental Subprojects will be
 considered part of Operator Framework, but will be marked as
@@ -284,6 +254,14 @@ Operator Framework, but the subproject is not entitled to a
 representative on the Steering Committee. Experimental Subprojects can
 apply for full status by opening an issue, which will be reviewed by the
 Steering Committee.
+
+Before submitting an application to the Steering Committee, the applying
+project must hold an internal vote of all major contributors to join
+Operator Framework. The Steering Committee will then review and vote on
+the application. A 2/3 majority of the Steering Committee members must
+approve, and Experimental subprojects require 1/2 of the Steering
+Committee to approve. If the application is accepted, the Committee will
+assign one person to assist the subproject in their integration.
 
 ## Removing Projects
 
