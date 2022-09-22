@@ -196,7 +196,7 @@ document.
 ## Governance Amendments
 
 The Operator Framework Community may adopt or amend its Governance
-Docuements (`GOVERNANCE.md` and `contributor-ladder.md`) according to
+Documents (`GOVERNANCE.md` and `contributor-ladder.md`) according to
 the following process:
 
 1. Propose a change by opening an issue in the community, and if there
