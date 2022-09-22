@@ -163,4 +163,6 @@ If and when contributors' commitment levels change, contributors can
 consider stepping down (moving down the contributor ladder) vs moving to
 emeritus status (completely stepping away from the project).  Contact
 the Approvers about changing to Emeritus status, or reducing your
-contributor level.
+contributor level. In the event that an emeritus contributor
+comes back to the project, directly reapply for their previous
+position via the normal application method.
