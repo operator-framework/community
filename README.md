@@ -3,6 +3,11 @@
 Welcome to the Operator Framework community repo, which contains the Operator
 Framework process, charter, and coordination documents.
 
+## Governance
+To learn more about how the Operator Framework organization is governed, take a look at our governance documents:
+- [Operator Framework Project Governance](GOVERNANCE.md)
+- [Operator Framework Contributor Ladder](contributor-ladder.md)
+
 ## Get involved
 
 * Kubernetes Slack ([Get invite](https://slack.k8s.io))
