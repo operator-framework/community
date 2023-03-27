@@ -38,11 +38,7 @@ To organize and steer the development of projects that enable teams to manage th
 
 ### Meetings
 
-* Issue Triage: Thursdays (biweekly) at 15:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
-    * [Meeting Link][olm-meeting-link]: Password: 77777
-    * [Agenda](https://docs.google.com/document/d/1LMQ5QlEYgGBeSc75fhHh-VFJ8_B2j4ieBcagIa-QfwU/edit)
-    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeUk5xNSiUCKuptB1WIDU5J2).
-* Regular WG: Thursdays (biweekly) at 15:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=15:00&tz=ET%20%28Eastern%20Time%29).
+* WG and Issue Traige: Tuesdays at 11:00 Eastern Time. [Convert to your timezone](http://www.thetimezoneconverter.com/?t=11:00&tz=ET%20%28Eastern%20Time%29).
     * [Meeting Link][olm-meeting-link]: Password: 77777
     * [Agenda](https://docs.google.com/document/d/1Zuv-BoNFSwj10_zXPfaS9LWUQUCak2c8l48d0-AhpBw/edit)
     * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeXDvBtPlaAvPTaknPR0Uwi-).
