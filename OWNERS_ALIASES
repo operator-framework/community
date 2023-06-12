@@ -1,28 +1,27 @@
 aliases:
-  wg-ci-leads:
-    - gallettilance
-    - njhale
-    - shawn-hurley
-  wg-olm-leads:
+  steering-committee:
+    - asmacdo
     - awgreene
-    - exdx
-    - kevinrizza
-  wg-osdk-leads:
-    - asmacdo
-    - jberkhahn
-    - kensipe
-    - varshaprasad96
-  community-chairs:
-    - asmacdo
-    - awgreene 
     - gallettilance
     - jberkhahn
     - joelanford
     - jmrodri
     - tlwu2013
-  community-maintainers:
-    - dmueller2001
+  wg-olm-maintainers:
+    - awgreene
+    - benluddy
+    - dinhxuanvu
     - ecordell
-    - joelanford
-    - dmesser
-    - gerred
+    - grokspawn
+    - kevinrizza
+    - njhale
+    - perdasilva
+  wg-osdk-maintainers:
+    - anik120
+    - everettraven
+    - fabianvf
+    - jberkhahn
+    - kensipe
+    - grokspawn
+    - rashmigottipati
+    - varshaprasad96
