@@ -12,6 +12,7 @@ governance reflects this federated structure.
 - [Steering Committee](#steering-committee)
   - [Steering Committee Duties](#steering-committee-duties)
   - [Steering Committee Elections](#steering-committee-elections)
+  - [Steering Committee Resignations and Replacements](#steering-committee-resignations)
   - [Steering Committee Bootstrapping](#steering-committee-bootstrapping)
 - [Governance Amendments](#governance-amendments)
 - [Code of Conduct Committee](#code-of-conduct-committee)
@@ -167,6 +168,14 @@ The election itself will last for at least one week, and is conducted as
 a preference election online, using the Condorcet method. The Election
 Officers will announce the selected candidates at the next regular
 community meeting.
+
+### Steering Committee Resignations and Replacements
+
+In the event that a Steering Committee member wishes to resign, they may do so by
+by publishing an email stating as such to the Operator Framework mailing list. They
+may also choose to nominate a replacement, who shall become their replacement after 4
+weeks, with the lazy consensus of the remaining committee members. The replacement
+will service out the remainder of the resigning committee member's term. 
 
 #### Steering Committee Election Procedure
 
