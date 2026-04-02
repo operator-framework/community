@@ -20,10 +20,9 @@ To learn more about how the Operator Framework organization is governed, take a 
 
 ### Operator Framework Meetings
 
-* Outreach and Community Planning: Fridays (about 1/month) at 12:00 Eastern Time. [Convert to your timezone](https://dateful.com/time-zone-converter?t=12:00&tz=ET%20(Eastern%20Time))
-    * [Meeting Link][meeting-link]: Password: 77777
-    * [Agenda](https://docs.google.com/document/d/1dB6A1JchUUSQxtuVxRJTLDvF8jZN57p1lsq6oKCIPN4/edit)
-    * [Meeting recordings](https://www.youtube.com/playlist?list=PLEcO8aSeUjeVCRWuqOYwKiEd71-VmOpCN)
+You can see all operator-framework meetings by adding this [Google Calendar](https://calendar.google.com/calendar/u/0?cid=YzA0OGUxY2YzM2ZjOGZiYTFjNjVlZjMxZGJiNGVhNDdkZTYxZTlhYzNlODcwZmY5OGM2Mjk5NDVjZTVlZGMyYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+
+### Operator Framework Special Interest Group
 
 ## Working Groups
 
